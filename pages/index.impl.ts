@@ -6,6 +6,8 @@ import Logo from '~/components/Logo.vue'
     Logo
   },
 })
-export default class Index extends Vue {
-
+export default class Homepage extends Vue {
+  mounted() {
+    console.log("Homepage mounted");
+  }
 }

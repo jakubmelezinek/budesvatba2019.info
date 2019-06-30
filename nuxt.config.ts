@@ -7,14 +7,27 @@ const config: NuxtConfiguration = {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: "Jana & Pepa 19.10.2019",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/common-css/bootstrap.css' },
+      { rel: 'stylesheet', href: '/common-css/fluidbox.min.css' },
+      { rel: 'stylesheet', href: '/common-css/font-icon.css' },
+      { rel: 'stylesheet', href: '/styles.css' },
+      { rel: 'stylesheet', href: '/responsive.css' }
+    ],
+    script: [
+      { src: '/common-js/jquery-3.1.1.min.js', type: "application/javascript", async: true, defer: true },
+      { src: '/common-js/tether.min.js', type: "application/javascript", async: true, defer: true },
+      { src: '/common-js/bootstrap.js', type: "application/javascript", async: true, defer: true },
+      { src: '/common-js/jquery.countdown.min.js', type: "application/javascript", async: true, defer: true },
+      { src: '/common-js/jquery.fluidbox.min.js', type: "application/javascript", async: true, defer: true },
+      { src: '/common-js/scripts.js', type: "application/javascript", async: true, defer: true },
     ]
   },
   /*
