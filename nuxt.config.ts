@@ -15,6 +15,7 @@ const config: NuxtConfiguration = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Quando&display=swap' },
       { rel: 'stylesheet', href: '/common-css/bootstrap.css' },
       { rel: 'stylesheet', href: '/common-css/fluidbox.min.css' },
       { rel: 'stylesheet', href: '/common-css/font-icon.css' },
@@ -41,7 +42,9 @@ const config: NuxtConfiguration = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [
+    '~/plugins/i18n.ts',
+  ],
   /*
   ** Nuxt.js modules
   */
@@ -63,6 +66,9 @@ const config: NuxtConfiguration = {
     */
     extend(config, ctx) {
     }
+  },
+  router: {
+    middleware: 'i18n',
   }
 };
 

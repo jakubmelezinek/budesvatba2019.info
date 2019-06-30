@@ -1,0 +1,76 @@
+{
+  "Jana": "Jana",
+  "Pepa": "Pepa",
+  "Date": "19. říjen 2019",
+  "en": "ENGLISH",
+  "cs": "ČESKY",
+
+  "Intro": {
+    "Heading": "Milí svatebčané",
+    "Content": "Těšíme se na společnou oslavu našeho svatebního dne. Obřad i následná zábava proběhnou na jednom místě a není tedy potřeba nikam přejíždět."
+  },
+
+  "Countdown": {
+    "Heading": "Zbývá"
+  },
+
+  "Timeline": {
+    "Heading": "Harmonogram",
+
+    "Arrival": {
+      "Time": "13:00 – 13:30",
+      "Heading": "PŘÍJEZD",
+      "Text": "Doporučený čas pro příjezd hostů."
+    },
+    "Welcoming": {
+      "Time": "13:30",
+      "Heading": "PŘIVÍTÁNÍ",
+      "Text": "Welcome drink, párečky od ženíchova dědečka. // TODO překlad 'welcome drink'"
+    },
+    "Ceremony": {
+      "Time": "14:00",
+      "Heading": "OBŘAD",
+      "Text": "// TODO chceš tu mít nějaký popisek?"
+    },
+
+    "Photoshooting": {
+      "Heading": "FOCENÍ"
+    },
+    "FreeTime": {
+      "Heading": "VOLNÁ ZÁBAVA"
+    },
+    "Cake": {
+      "Heading": "KRÁJENÍ DORTU"
+    },
+    "FirstDance": {
+      "Heading": "PRVNÍ TANEC"
+    },
+    "BouquetToss": {
+      "Heading": "HOD KYTICÍ"
+    }
+  },
+  "Location": {
+    "Heading": "Lokalita"
+  },
+  "RSVP": {
+    "Heading": "Lokalita"
+  },
+  "Parking": {
+    "Heading": "Parkování"
+  },
+  "Info": {
+    "Heading": "Svatební obřad"
+  },
+  "Gifts": {
+    "Heading": "Svatební dary"
+  },
+  "Transportation": {
+    "Heading": "Svatební dary"
+  },
+  "Gallery": {
+    "Heading": "Fotografie"
+  },
+  "Contact": {
+    "Heading": "Svatební dary"
+  }
+}

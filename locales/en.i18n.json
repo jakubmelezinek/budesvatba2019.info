@@ -1,0 +1,51 @@
+{
+  "Date": "19<sup>th</sup> October 2019",
+
+  "Intro": {
+    "Heading": "Dear friends",
+    "Content": "We are looking forward to celebrating our wedding day with you. The ceremony and afterparty will all be held at one place – see the venue below."
+  },
+
+  "Countdown": {
+    "Heading": "Countdown"
+  },
+
+  "Timeline": {
+    "Heading": "Schedule",
+
+    "Arrival": {
+      "Time": "13:00 – 13:30",
+      "Heading": "ARRIVAL",
+      "Text": "Recommended time for your arrival."
+    },
+    "Welcoming": {
+      "Time": "13:30",
+      "Heading": "WELCOME DRINK",
+      "Text": "And home made sausages from Pepa’s grandfather."
+    },
+    "Ceremony": {
+      "Time": "14:00",
+      "Heading": "CEREMONY",
+      "Text": "// TODO chceš tu mít nějaký popisek?"
+    },
+
+    "Photoshooting": {
+      "Heading": "PHOTOSHOOTING"
+    },
+    "FreeTime": {
+      "Heading": "VOLNÁ ZÁBAVA // TODO translate"
+    },
+    "Cake": {
+      "Heading": "CAKE SLICING"
+    },
+    "FirstDance": {
+      "Heading": "FIRST DANCE FOR THE NEWLY WEDS"
+    },
+    "BouquetToss": {
+      "Heading": "BOUQUET TOSS"
+    },
+    "Fun": {
+      "Heading": "FUN UNTIL THE MORNING :)"
+    }
+  }
+}

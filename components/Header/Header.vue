@@ -3,7 +3,7 @@
 
     <div class="container">
 
-      <a class="logo" href="#"><img src="/images/logo-white.png" alt="Logo"></a>
+      <a class="logo" href="" @click.prevent=""><img src="/images/logo-white.png" alt="Logo"></a>
 
       <div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="icon icon-bars"></i></div>
 
@@ -28,8 +28,11 @@
         <li><a href="03-regular-page.html">THER WEDDING</a></li>
         <li><a href="#">GELLERY</a></li>
         <li><a href="02-rsvp.html">RSVP</a></li>
+        <li><nuxt-link :to='otherLang'>{{ $t(otherLang) }}</nuxt-link></li>
       </ul><!-- main-menu -->
 
     </div><!-- container -->
   </header>
 </template>
+
+<script src="./Header.impl.ts" lang="ts"></script>
