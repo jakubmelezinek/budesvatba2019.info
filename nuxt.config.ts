@@ -23,12 +23,12 @@ const config: NuxtConfiguration = {
       { rel: 'stylesheet', href: '/responsive.css' }
     ],
     script: [
-      { src: '/common-js/jquery-3.1.1.min.js', type: "application/javascript", async: true, defer: true },
-      { src: '/common-js/tether.min.js', type: "application/javascript", async: true, defer: true },
-      { src: '/common-js/bootstrap.js', type: "application/javascript", async: true, defer: true },
-      { src: '/common-js/jquery.countdown.min.js', type: "application/javascript", async: true, defer: true },
-      { src: '/common-js/jquery.fluidbox.min.js', type: "application/javascript", async: true, defer: true },
-      { src: '/common-js/scripts.js', type: "application/javascript", async: true, defer: true },
+      { src: '/common-js/jquery-3.1.1.min.js', type: "application/javascript" },
+      { src: '/common-js/tether.min.js', type: "application/javascript" },
+      { src: '/common-js/bootstrap.js', type: "application/javascript" },
+      { src: '/common-js/jquery.countdown.min.js', type: "application/javascript" },
+      { src: '/common-js/jquery.fluidbox.min.js', type: "application/javascript" },
+      { src: '/common-js/scripts.js', type: "application/javascript" },
     ]
   },
   /*

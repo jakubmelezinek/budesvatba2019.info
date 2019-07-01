@@ -7,7 +7,11 @@
   },
 
   "Countdown": {
-    "Heading": "Countdown"
+    "Heading": "Countdown",
+    "Days": "days | day | days",
+    "Hours": "hours | hour | hours",
+    "Minutes": "minutes | minute | minutes",
+    "Seconds": "seconds | second | seconds"
   },
 
   "Timeline": {

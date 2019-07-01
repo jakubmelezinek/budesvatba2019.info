@@ -1,5 +1,8 @@
 <template>
   <div class="exactly-one">
+
+
+    <!-- landing section -->
     <div class="main-slider">
       <div class="display-table center-text">
         <div class="display-table-cell">
@@ -9,12 +12,13 @@
             <h3 class="date" v-html="$t('Date')"></h3>
             <h1 class="title">{{ $t('Jana') }} <i class="icon icon-heart"></i> {{ $t('Pepa') }}</h1>
 
-          </div><!-- slider-content-->
-        </div><!--display-table-cell-->
-      </div><!-- display-table-->
-    </div><!-- main-slider -->
+          </div>
+        </div>
+      </div>
+    </div>
 
 
+    <!-- info section -->
     <section class="section story-area center-text">
       <div class="container">
         <div class="row">
@@ -28,34 +32,17 @@
 
             <p class="desc margin-bottom">{{ $t('Intro.Content') }}</p>
 
-          </div><!-- col-sm-10 -->
-        </div><!-- row -->
-      </div><!-- container -->
-    </section><!-- section -->
-
-    <section class="section counter-area center-text">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-sm-12">
-            <div class="heading">
-              <h2 class="title">{{ $t('Countdown.Heading') }}</h2>
-              <span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
-            </div>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="col-sm-2"></div>
-          <div class="col-sm-8">
 
-            <div class="remaining-time">
-              <div id="clock"></div>
-            </div><!-- remaining-time -->
-          </div><!-- col-sm-10 -->
+    <!-- counter section -->
+    <CountdownSection/>
 
-        </div><!-- row -->
-      </div><!-- container -->
-    </section><!-- section -->
 
+    <!-- timeline section -->
     <section class="section w-details-area center-text">
       <div class="container">
         <div class="row">
@@ -147,7 +134,6 @@
     </section><!-- section -->
 
 
-
     <section class="section galery-area center-text">
       <div class="container">
         <div class="row">
@@ -163,27 +149,39 @@
               <div class="row">
 
                 <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
+                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-1-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
                 </div><!-- col-sm-4 -->
 
                 <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-2-600x400.jpg" alt="Gallery Image"></a>
+                  <a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-2-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
                 </div><!-- col-sm-4 -->
 
                 <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-3-600x400.jpg" alt="Gallery Image"></a>
+                  <a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-3-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
                 </div><!-- col-sm-4 -->
 
                 <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-4-600x400.jpg" alt="Gallery Image"></a>
+                  <a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-4-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
                 </div><!-- col-sm-4 -->
 
                 <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-5-600x400.jpg" alt="Gallery Image"></a>
+                  <a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-5-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
                 </div><!-- col-sm-4 -->
 
                 <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
+                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-1-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
                 </div><!-- col-sm-4 -->
 
               </div><!-- row -->
@@ -225,7 +223,8 @@
       <div class="map-area">
         <div id="map" style="height:100%;"></div>
       </div><!-- map-area -->
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-oEyU88bRR6xcbV1gI_Cahc8ugKC_JPE&callback=initMap"></script>
+      <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-oEyU88bRR6xcbV1gI_Cahc8ugKC_JPE&callback=initMap"></script>
 
     </section><!-- section -->
   </div>
