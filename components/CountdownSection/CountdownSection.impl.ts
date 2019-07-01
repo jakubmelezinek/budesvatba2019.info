@@ -8,7 +8,7 @@ export default class CountdownSection extends Vue {
   $tc: any;
 
   mounted() {
-    this.$clock.countdown('2019/10/19', (event) => {
+    this.$clock.countdown('2019/10/19 14:00', (event) => {
       if (this.$tc) {
         this.$clock.html(event.strftime(''
           + `<div class="time-sec"><span class="title">%D</span> ${ this.$tc('Countdown.Days', event.offset.totalDays) } </div>`

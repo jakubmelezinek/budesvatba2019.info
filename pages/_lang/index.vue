@@ -56,51 +56,48 @@
 
             <div class="wedding-details margin-bottom">
 
-              <!-- TODO icon -->
               <div class="w-detail right">
-                <i class="icon icon-ciurclke"></i>
+                <i class="icon"><img src="/icons/icons8-car-56.png" alt="car" height="56" width="56"></i>
                 <h4 class="title">{{ $t('Timeline.Arrival.Heading') }} {{ $t('Timeline.Arrival.Time') }}</h4>
                 <p>{{ $t('Timeline.Arrival.Text') }}</p>
-              </div><!-- w-detail -->
+              </div>
 
               <div class="w-detail left">
                 <i class="icon icon-wine-glass"></i>
                 <h4 class="title">{{ $t('Timeline.Welcoming.Heading') }} {{ $t('Timeline.Welcoming.Time') }}</h4>
                 <p>{{ $t('Timeline.Welcoming.Text') }}</p>
-              </div><!-- w-detail -->
+              </div>
 
               <div class="w-detail right">
                 <i class="icon icon-ciurclke"></i>
                 <h4 class="title">{{ $t('Timeline.Ceremony.Heading') }} {{ $t('Timeline.Ceremony.Time') }}</h4>
                 <p>{{ $t('Timeline.Ceremony.Text') }}</p>
-              </div><!-- w-detail -->
-
-              <!-- TODO icons -->
+              </div>
 
               <div class="w-detail left">
-                <i class="icon icon-wine-glass"></i>
+                <i class="icon icon-camera"></i>
                 <h4 class="title">{{ $t('Timeline.Photoshooting.Heading') }}</h4>
-              </div><!-- w-detail -->
+              </div>
 
               <div class="w-detail right">
-                <i class="icon icon-ciurclke"></i>
+                <i class="icon"><img src="/icons/icons8-wedding-56.png" alt="broom and bride" height="56" width="56"></i>
                 <h4 class="title">{{ $t('Timeline.FreeTime.Heading') }}</h4>
-              </div><!-- w-detail -->
+              </div>
 
               <div class="w-detail left">
-                <i class="icon icon-wine-glass"></i>
+                <i class="icon icon-cake"></i>
                 <h4 class="title">{{ $t('Timeline.Cake.Heading') }}</h4>
-              </div><!-- w-detail -->
+              </div>
 
               <div class="w-detail right">
-                <i class="icon icon-ciurclke"></i>
+                <i class="icon"><img src="/icons/icons8-ballroom-dance-56.png" alt="dance" height="56" width="56"></i>
                 <h4 class="title">{{ $t('Timeline.FirstDance.Heading') }}</h4>
-              </div><!-- w-detail -->
+              </div>
 
               <div class="w-detail left">
-                <i class="icon icon-wine-glass"></i>
+                <i class="icon"><img src="/icons/icons8-camellia-56.png" alt="bouquet" height="56" width="56"></i>
                 <h4 class="title">{{ $t('Timeline.BouquetToss.Heading') }}</h4>
-              </div><!-- w-detail -->
+              </div>
 
             </div><!-- wedding-details -->
 

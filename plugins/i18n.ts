@@ -27,7 +27,7 @@ VueI18n.prototype.getChoiceIndex = function(choice, choicesLength) {
     return 2;
   }
 
-  return getChoiceIndexOrig.call(this, ...arguments);
+  return getChoiceIndexOrig.call(this, choice, choicesLength);
 };
 
 export default ({ app, store }) => {
