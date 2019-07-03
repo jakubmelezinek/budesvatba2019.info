@@ -5,7 +5,7 @@
   "en": "ENGLISH",
   "cs": "ČESKY",
 
-  "Intro": {
+  "Invitation": {
     "Heading": "Milí svatebčané",
     "Content": "Těšíme se na společnou oslavu našeho svatebního dne. Obřad i následná zábava proběhnou na jednom místě a není tedy potřeba nikam přejíždět."
   },
@@ -62,22 +62,24 @@
     "Heading": "RSVP",
     "Content": "Dejte nám, prosím, vědět, jestli se k nám připojíte (abychom zajistili dostatek všeho potřebného) a vyplňte tento krátký formulář."
   },
-  "Parking": {
-    "Heading": "Parkování"
-  },
   "Info": {
-    "Heading": "Svatební obřad"
-  },
-  "Gifts": {
-    "Heading": "Svatební dary"
+    "Heading": "Svatební obřad",
+    "Content": "Pokud to počasí dovolí, bude se obřad konat venku, v případě deště se přesuneme do Vigvamu. Přizpůsobte tomu tedy své oblečení. Svatbu neladime do zadnych konkretnich barev."
   },
   "Transportation": {
-    "Heading": "Svatební dary"
+    "Heading": "Parkování a doprava",
+    "Content1": "V areálu Vigvam resortu není problém zaparkovat všechny Vaše vozy.",
+    "Content2": "Na místě budou od 20:00 k dispozici řidiči, kteří Vás případně večer/v noci odvezou domů."
+  },
+  "Gifts": {
+    "Heading": "Svatební dary",
+    "Content": "Vzhledem k tomu, že oba rádi cestujeme, oceníme jakýkoli finanční příspěvek, který použijeme na naši svatební cestu. Největším darem pro nás ale bude , když náš den prožijete s námi."
   },
   "Gallery": {
     "Heading": "Fotografie"
   },
   "Contact": {
-    "Heading": "Svatební dary"
+    "Heading": "Chybí Vám nějaká informace?",
+    "Content": "Kontaktujte přímo ženicha či nevěstu."
   }
 }

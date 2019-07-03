@@ -2,7 +2,7 @@
   <div class="exactly-one">
 
 
-    <!-- landing section -->
+    <!-- Landing section -->
     <div class="main-slider">
       <div class="display-table center-text">
         <div class="display-table-cell">
@@ -18,36 +18,35 @@
     </div>
 
 
-    <!-- info section -->
+    <!-- Invitation section -->
     <section class="section story-area center-text">
       <div class="container">
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-10">
 
+          <div class="col-sm-12">
             <div class="heading">
-              <h2 class="title">{{ $t('Intro.Heading') }}</h2>
+              <h2 class="title">{{ $t('Invitation.Heading') }}</h2>
               <span class="heading-bottom"><i class="icon icon-star"></i></span>
             </div>
 
-            <p class="desc margin-bottom">{{ $t('Intro.Content') }}</p>
-
+            <p class="desc margin-bottom">{{ $t('Invitation.Content') }}</p>
           </div>
+
         </div>
       </div>
     </section>
 
 
-    <!-- counter section -->
+    <!-- Countdown section -->
     <CountdownSection/>
 
 
-    <!-- timeline section -->
+    <!-- Timeline section -->
     <section class="section w-details-area center-text">
       <div class="container">
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-10">
+
+          <div class="col-sm-12">
 
             <div class="heading">
               <h2 class="title">{{ $t('Timeline.Heading') }}</h2>
@@ -100,8 +99,8 @@
               </div>
 
             </div>
-
           </div>
+
         </div>
       </div>
     </section>
@@ -111,8 +110,8 @@
     <section class="section location-area center-text">
       <div class="container">
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-10">
+
+          <div class="col-sm-12">
 
             <div class="heading">
               <h2 class="title">{{ $t('Location.Heading') }}</h2>
@@ -204,12 +203,12 @@
     </section>
 
 
-    <!-- RSVP -->
+    <!-- RSVP section -->
     <section class="section rsvp-area center-text">
       <div class="container">
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-10">
+
+          <div class="col-sm-12">
 
             <div class="heading">
               <h2 class="title">{{ $t('RSVP.Heading') }}</h2>
@@ -226,14 +225,73 @@
     </section>
 
 
-    <section class="section galery-area center-text">
+    <!-- Info section -->
+    <section class="section info-area center-text">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <div class="heading">
+              <h2 class="title">{{ $t('Info.Heading') }}</h2>
+              <span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
+            </div>
+          </div>
+
+          <p class="desc margin-bottom">{{ $t('Info.Content') }}</p>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Transportation section -->
+    <section class="section transportation-area center-text">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <div class="heading">
+              <h2 class="title">{{ $t('Transportation.Heading') }}</h2>
+              <span class="heading-bottom"><i class="icon icon-star"></i></span>
+            </div>
+
+            <p class="desc margin-bottom">{{ $t('Transportation.Content1') }}</p>
+            <p v-if="$t('Transportation.Content2')" class="desc margin-bottom">{{ $t('Transportation.Content2') }}</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Info section -->
+    <section class="section gifts-area center-text">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <div class="heading">
+              <h2 class="title">{{ $t('Gifts.Heading') }}</h2>
+              <span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
+            </div>
+          </div>
+
+          <p class="desc margin-bottom">{{ $t('Gifts.Content') }}</p>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Gallery section -->
+    <section class="section gallery-area center-text">
       <div class="container">
         <div class="row">
 
           <div class="col-sm-12">
 
             <div class="heading">
-              <h2 class="title">Our Gallery</h2>
+              <h2 class="title">{{ $t('Gallery.Heading') }}</h2>
               <span class="heading-bottom"><i class="icon icon-star"></i></span>
             </div>
 
@@ -282,10 +340,29 @@
 
             </div>
 
-          </div><!-- col-sm-10 -->
-        </div><!-- row -->
-      </div><!-- container -->
-    </section><!-- section -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact section -->
+    <section class="section contact-area-2 center-text">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <div class="heading">
+              <h2 class="title">{{ $t('Contact.Heading') }}</h2>
+              <span class="heading-bottom"><i class="icon icon-star"></i></span>
+            </div>
+
+            <p class="desc margin-bottom">{{ $t('Contact.Content') }}</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
   </div>
 </template>
@@ -316,8 +393,18 @@
   }
 
   .section.location-area {
-    box-shadow: 1px 10px 40px rgba(0,0,0,.4);
+    box-shadow: 0px -10px 19px 0px rgba(0,0,0,.15);
     padding-top: 70px;
+  }
+
+  .section.rsvp-area {
+    box-shadow: inset 0px 10px 19px 0px rgba(0,0,0,.15);
+    padding-top: 70px;
+  }
+
+
+  .section.contact-area-2 {
+    box-shadow: 0px -10px 19px 0px rgba(0,0,0,.15)
   }
 
   .map-responsive {
