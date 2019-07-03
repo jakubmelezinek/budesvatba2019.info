@@ -54,10 +54,13 @@
     }
   },
   "Location": {
-    "Heading": "Lokalita"
+    "Heading": "Kde se sejdeme",
+    "Contact": "Kontakt",
+    "Address": "VIGVAM PENZION s.r.o.<br>Němčice 152, 280 02<br>"
   },
   "RSVP": {
-    "Heading": "Lokalita"
+    "Heading": "RSVP",
+    "Content": "Dejte nám, prosím, vědět, jestli se k nám připojíte (abychom zajistili dostatek všeho potřebného) a vyplňte tento krátký formulář."
   },
   "Parking": {
     "Heading": "Parkování"

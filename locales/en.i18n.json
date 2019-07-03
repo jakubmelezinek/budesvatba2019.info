@@ -51,5 +51,14 @@
     "Fun": {
       "Heading": "FUN UNTIL THE MORNING :)"
     }
+  },
+  "Location": {
+    "Heading": "Location",
+    "Contact": "Contact",
+    "Address": "VIGVAM PENZION s.r.o.<br>Němčice 152, 280 02<br>Czech Republic"
+  },
+  "RSVP": {
+    "Heading": "RSVP",
+    "Content": "Please let us know if you’ll join us, so that we can arrange all necessary things, and fill in this short questionnaire."
   }
 }

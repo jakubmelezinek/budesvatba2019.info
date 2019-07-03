@@ -99,36 +99,131 @@
                 <h4 class="title">{{ $t('Timeline.BouquetToss.Heading') }}</h4>
               </div>
 
-            </div><!-- wedding-details -->
+            </div>
 
-          </div><!-- col-sm-10 -->
-        </div><!-- row -->
-      </div><!-- container -->
-    </section><!-- section -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section class="section ceremony-area center-text">
+
+    <!-- Vigvam Location -->
+    <section class="section location-area center-text">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10">
 
             <div class="heading">
-              <h2 class="title">Wedding & Ceremonies</h2>
-              <span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
+              <h2 class="title">{{ $t('Location.Heading') }}</h2>
+              <span class="heading-bottom"><i class="icon icon-star"></i></span>
             </div>
 
-            <div class="ceremony margin-bottom">
-              <p class="desc">We assist our clients in creating memorable, magical
-                celebrations that exceed expectations. Our personal approach ensures the weddings we
-                plan are meaningful and truly reflect our clients as individuals, as couples, and states
-                something about their shared values and sense of style.</p>
+          </div>
+        </div>
 
-              <a class="border-btn" href="#">LEARN MORE</a>
+        <div class="row">
+          <div class="col-sm-12 mb-4">
+            <div class="heading">
+              <h3 class="title">{{ $t('Location.Contact') }}</h3>
             </div>
 
-          </div><!-- col-sm-10 -->
-        </div><!-- row -->
-      </div><!-- container -->
-    </section><!-- section -->
+            <p v-html="$t('Location.Address')"></p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-sm-12 px-0">
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d287479.1817694367!2d15.144418232662131!3d50.13044375814819!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c8fe04b2f390e72!2sPension+Vigvam!5e0!3m2!1sen!2sde!4v1562159283436!5m2!1sen!2sde"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+
+          <div class="col-sm-12">
+
+            <div class="image-gallery">
+              <div class="row">
+
+                <div class="col-md-4 col-sm-6">
+                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-1-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                  <a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-2-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                  <a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-3-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                  <a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-4-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                  <a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-5-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
+                                                                            src="images/gallery-1-600x400.jpg"
+                                                                            alt="Gallery Image"></a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- RSVP -->
+    <section class="section rsvp-area center-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10">
+
+            <div class="heading">
+              <h2 class="title">{{ $t('RSVP.Heading') }}</h2>
+              <span class="heading-bottom"><i class="icon icon-star"></i></span>
+            </div>
+
+            <p class="desc margin-bottom">{{ $t('RSVP.Content') }}</p>
+
+            <div>TODO form</div>
+
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <section class="section galery-area center-text">
@@ -149,82 +244,86 @@
                   <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
                                                                             src="images/gallery-1-600x400.jpg"
                                                                             alt="Gallery Image"></a>
-                </div><!-- col-sm-4 -->
+                </div>
 
                 <div class="col-md-4 col-sm-6">
                   <a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom"
                                                                             src="images/gallery-2-600x400.jpg"
                                                                             alt="Gallery Image"></a>
-                </div><!-- col-sm-4 -->
+                </div>
 
                 <div class="col-md-4 col-sm-6">
                   <a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom"
                                                                             src="images/gallery-3-600x400.jpg"
                                                                             alt="Gallery Image"></a>
-                </div><!-- col-sm-4 -->
+                </div>
 
                 <div class="col-md-4 col-sm-6">
                   <a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom"
                                                                             src="images/gallery-4-600x400.jpg"
                                                                             alt="Gallery Image"></a>
-                </div><!-- col-sm-4 -->
+                </div>
 
                 <div class="col-md-4 col-sm-6">
                   <a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom"
                                                                             src="images/gallery-5-600x400.jpg"
                                                                             alt="Gallery Image"></a>
-                </div><!-- col-sm-4 -->
+                </div>
 
                 <div class="col-md-4 col-sm-6">
                   <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
                                                                             src="images/gallery-1-600x400.jpg"
                                                                             alt="Gallery Image"></a>
-                </div><!-- col-sm-4 -->
+                </div>
 
-              </div><!-- row -->
+              </div>
 
               <a class="btn-2 margin-bottom gallery-btn" href="#">VIEW ALL GALLERY</a>
 
-            </div><!-- image-gallery -->
+            </div>
 
           </div><!-- col-sm-10 -->
         </div><!-- row -->
       </div><!-- container -->
     </section><!-- section -->
 
-    <section class="contact-area">
-      <div class="contact-wrapper section float-left">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-2"></div>
-
-            <div class="col-sm-10">
-              <div class="heading">
-                <h3 class="title">Contact Us</h3>
-                <i class="icon icon-star"></i>
-              </div>
-
-              <div class="margin-bottom">
-                <p>On the 25 September 2017</p>
-                <p>Join us as we celebrate life and love.</p>
-                <h4><a href="tel:784-412-0646" class="phone">784-412-0646</a></h4>
-                <p>14 Baria street 133/2, New York City, US</p>
-
-              </div><!-- margin-bottom -->
-            </div><!-- col-sm-10 -->
-
-          </div><!-- row -->
-        </div><!-- container -->
-      </div><!-- float-left -->
-
-      <div class="map-area">
-        <div id="map" style="height:100%;"></div>
-      </div><!-- map-area -->
-      <script async defer
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-oEyU88bRR6xcbV1gI_Cahc8ugKC_JPE&callback=initMap"></script>
-
-    </section><!-- section -->
   </div>
 </template>
 
 <script src="./index.impl.ts" lang="ts"></script>
+
+<style>
+  .map-area{ height: 400px; }
+
+  .section.location-area {
+    box-shadow: 1px 10px 40px rgba(0,0,0,.4);
+    padding-top: 70px;
+  }
+
+  .no-lr-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+
+  @media (min-width: 1024px) {
+    .map-responsive {
+      padding-bottom: 576px;
+    }
+  }
+
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    max-height: 576px;
+    width: 100%;
+    position: absolute;
+  }
+</style>
