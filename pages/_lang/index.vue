@@ -293,16 +293,31 @@
 <script src="./index.impl.ts" lang="ts"></script>
 
 <style>
-  .map-area{ height: 400px; }
+
+  .w-detail:after {
+    top: 28px;
+  }
+
+  .wedding-details:after {
+    margin-top: 28px;
+    margin-bottom: 68px;
+  }
+
+  @media (min-width: 480px) {
+    .wedding-details:after {
+      margin-bottom: 78px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .wedding-details:after {
+      margin-bottom: 88px;
+    }
+  }
 
   .section.location-area {
     box-shadow: 1px 10px 40px rgba(0,0,0,.4);
     padding-top: 70px;
-  }
-
-  .no-lr-padding {
-    padding-left: 0;
-    padding-right: 0;
   }
 
   .map-responsive {
@@ -310,6 +325,8 @@
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
+    border-top: 1px solid rgba(0,0,0,.2);
+    border-bottom: 1px solid rgba(0,0,0,.2);
   }
 
   @media (min-width: 1024px) {
