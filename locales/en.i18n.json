@@ -29,15 +29,14 @@
     },
     "Ceremony": {
       "Time": "14:00",
-      "Heading": "CEREMONY",
-      "Text": "// TODO chceš tu mít nějaký popisek?"
+      "Heading": "CEREMONY"
     },
 
     "Photoshooting": {
       "Heading": "PHOTOSHOOTING"
     },
     "FreeTime": {
-      "Heading": "VOLNÁ ZÁBAVA // TODO translate"
+      "Heading": "FREE ENTERTAINMENT"
     },
     "Cake": {
       "Heading": "CAKE SLICING"
@@ -47,9 +46,6 @@
     },
     "BouquetToss": {
       "Heading": "BOUQUET TOSS"
-    },
-    "Fun": {
-      "Heading": "FUN UNTIL THE MORNING :) // TODO this is missing in cs"
     }
   },
   "Location": {
@@ -59,7 +55,17 @@
   },
   "RSVP": {
     "Heading": "RSVP",
-    "Content": "Please let us know if you’ll join us, so that we can arrange all necessary things, and fill in this short questionnaire."
+    "Content": "Please let us know if you’ll join us, so that we can arrange all necessary things, and fill in this short questionnaire.",
+    "Label": {
+      "FullName": "Full name",
+      "PhoneOrMail": "Phone or e-mail",
+      "Accomodation": "I need accomodation",
+      "Submit": "I AM ATTENDING"
+    },
+    "PlusOne": "I am taking plus one",
+    "AnotherOne": "Another one",
+    "MinusOne": "[x]",
+    "Companion": "Companion"
   },
   "Info": {
     "Heading": "Wedding ceremony",

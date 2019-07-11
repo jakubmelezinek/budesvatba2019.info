@@ -8,7 +8,6 @@ export default class Header extends Vue {
   @State locale;
 
   get otherLang() {
-    console.log("locale:", this.locale);
     return this.locale == 'en' ? 'cs': 'en';
   }
 }

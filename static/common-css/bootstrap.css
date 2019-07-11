@@ -605,6 +605,11 @@ small,
   font-weight: normal;
 }
 
+.smaller {
+  font-size: 66%;
+  font-weight: lighter;
+}
+
 mark,
 .mark {
   padding: 0.2em;

@@ -29,12 +29,11 @@
     "Welcoming": {
       "Time": "13:30",
       "Heading": "PŘIVÍTÁNÍ",
-      "Text": "Welcome drink, párečky od ženíchova dědečka. // TODO překlad 'welcome drink'"
+      "Text": "Welcome drink,\npárečky od ženíchova dědečka."
     },
     "Ceremony": {
       "Time": "14:00",
-      "Heading": "OBŘAD",
-      "Text": "// TODO chceš tu mít nějaký popisek?"
+      "Heading": "OBŘAD"
     },
 
     "Photoshooting": {
@@ -60,7 +59,17 @@
   },
   "RSVP": {
     "Heading": "RSVP",
-    "Content": "Dejte nám, prosím, vědět, jestli se k nám připojíte (abychom zajistili dostatek všeho potřebného) a vyplňte tento krátký formulář."
+    "Content": "Dejte nám, prosím, vědět, jestli se k nám připojíte (abychom zajistili dostatek všeho potřebného) a vyplňte tento krátký formulář.",
+    "Label": {
+      "FullName": "Jméno a příjmení",
+      "PhoneOrMail": "Telefon nebo e-mail",
+      "Accomodation": "Přeji si zajistit ubytování (cca 700,-)",
+      "Submit": "POTVRDIT ÚČAST"
+    },
+    "PlusOne": "Přivedu si doprovod",
+    "AnotherOne": "Další doprovod",
+    "MinusOne": "[x]",
+    "Companion": "Doprovod"
   },
   "Info": {
     "Heading": "Svatební obřad",

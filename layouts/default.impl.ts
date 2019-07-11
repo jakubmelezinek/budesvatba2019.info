@@ -10,7 +10,4 @@ import Footer from '~/components/Footer/Footer.vue'
   }
 })
 export default class DefaultLayout extends Vue {
-  mounted() {
-    console.log("DefaultLayout mounted");
-  }
 }

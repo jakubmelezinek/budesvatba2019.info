@@ -70,7 +70,6 @@
               <div class="w-detail right">
                 <i class="icon icon-ciurclke"></i>
                 <h4 class="title">{{ $t('Timeline.Ceremony.Heading') }} {{ $t('Timeline.Ceremony.Time') }}</h4>
-                <p>{{ $t('Timeline.Ceremony.Text') }}</p>
               </div>
 
               <div class="w-detail left">
@@ -202,27 +201,8 @@
       </div>
     </section>
 
-
     <!-- RSVP section -->
-    <section class="section rsvp-area center-text">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-sm-12">
-
-            <div class="heading">
-              <h2 class="title">{{ $t('RSVP.Heading') }}</h2>
-              <span class="heading-bottom"><i class="icon icon-star"></i></span>
-            </div>
-
-            <p class="desc margin-bottom">{{ $t('RSVP.Content') }}</p>
-
-            <div>TODO form</div>
-
-          </div>
-        </div>
-      </div>
-    </section>
+    <RsvpSection/>
 
 
     <!-- Info section -->
@@ -394,17 +374,13 @@
 
   .section.location-area {
     box-shadow: 0px -10px 19px 0px rgba(0,0,0,.15);
-    padding-top: 70px;
-  }
-
-  .section.rsvp-area {
-    box-shadow: inset 0px 10px 19px 0px rgba(0,0,0,.15);
-    padding-top: 70px;
+    /*box-shadow: 0px   0px 19px 10px rgba(0,0,0,.15);*/
+    border-bottom: 1px solid rgba(0,0,0,.1);
   }
 
 
   .section.contact-area-2 {
-    box-shadow: 0px -10px 19px 0px rgba(0,0,0,.15)
+    box-shadow: 0px -10px 19px 0px rgba(0,0,0,.15);
   }
 
   .map-responsive {
