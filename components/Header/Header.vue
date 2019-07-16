@@ -1,38 +1,47 @@
 <template>
   <header>
-
     <div class="container">
 
-      <a class="logo" href="" @click.prevent=""><img src="/images/logo-white.png" alt="Logo"></a>
+      <div class="menu-nav-icon" data-nav-menu="#main-menu">
+        <i
+          @click="menuOpened = !menuOpened"
+          class="icon icon-bars"></i>
+      </div>
 
-      <div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="icon icon-bars"></i></div>
-
-      <ul class="main-menu visible-on-click" id="main-menu">
-        <li><a href="index.html">HOME</a></li>
-        <li class="drop-down"><a href="#!">OUR STORIES<i class="icon icon-caret-down"></i></a>
-
-          <ul class="drop-down-menu">
-            <li><a href="#">FEATURED</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li class="drop-down"><a href="#!">CATEGORIES<i class="icon icon-caret-right"></i></a>
-              <ul class="drop-down-menu drop-down-inner">
-                <li><a href="#">FEATURED</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CATEGORIES</a></li>
-              </ul>
-            </li>
-          </ul>
-
-        </li>
-
-        <li><a href="03-regular-page.html">THER WEDDING</a></li>
-        <li><a href="#">GELLERY</a></li>
-        <li><a href="02-rsvp.html">RSVP</a></li>
+      <ul
+        id="main-menu"
+        class="main-menu visible-on-click"
+        :class="{'main-menu--opened' : menuOpened}"
+      >
+        <li><a href="#timeline">{{ $t('Timeline.Menu') }}</a></li>
+        <li><a href="#location">{{ $t('Location.Menu') }}</a></li>
+        <li><a href="#rsvp"><u>{{ $t('RSVP.Menu') }}</u></a></li>
+        <li><a href="#info">{{ $t('Info.Menu') }}</a></li>
+        <li><a href="#gifts">{{ $t('Gifts.Menu') }}</a></li>
+        <li><a href="#gallery">{{ $t('Gallery.Menu') }}</a></li>
+        <li v-if="!menuOpened">|</li>
         <li><nuxt-link :to='otherLang'>{{ $t(otherLang) }}</nuxt-link></li>
-      </ul><!-- main-menu -->
+      </ul>
 
-    </div><!-- container -->
+    </div>
   </header>
 </template>
 
 <script src="./Header.impl.ts" lang="ts"></script>
+
+<style>
+  header .container {
+    width: 992px;
+  }
+
+  @media (min-width: 767px) {
+    .main-menu {
+      padding-bottom: 20px;
+    }
+  }
+
+  .main-menu--opened {
+    display: block !important;
+  }
+
+</style>

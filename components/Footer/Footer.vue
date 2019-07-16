@@ -9,3 +9,6 @@
     </div>
   </footer>
 </template>
+
+<script src="./Footer.impl.ts" lang="ts"></script>
+

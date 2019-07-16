@@ -17,7 +17,6 @@ const config: NuxtConfiguration = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Quando&display=swap' },
       { rel: 'stylesheet', href: '/common-css/bootstrap.css' },
-      { rel: 'stylesheet', href: '/common-css/fluidbox.min.css' },
       { rel: 'stylesheet', href: '/common-css/font-icon.css' },
       { rel: 'stylesheet', href: '/styles.css' },
       { rel: 'stylesheet', href: '/responsive.css' }
@@ -27,8 +26,6 @@ const config: NuxtConfiguration = {
       { src: '/common-js/tether.min.js', type: "application/javascript" },
       { src: '/common-js/bootstrap.js', type: "application/javascript" },
       { src: '/common-js/jquery.countdown.min.js', type: "application/javascript" },
-      { src: '/common-js/jquery.fluidbox.min.js', type: "application/javascript" },
-      { src: '/common-js/scripts.js', type: "application/javascript" },
     ]
   },
   /*

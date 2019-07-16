@@ -6,11 +6,13 @@
   "cs": "ČESKY",
 
   "Invitation": {
+    "Menu": "POZVÁNKA",
     "Heading": "Milí svatebčané",
     "Content": "Těšíme se na společnou oslavu našeho svatebního dne. Obřad i následná zábava proběhnou na jednom místě a není tedy potřeba nikam přejíždět."
   },
 
   "Countdown": {
+    "Menu": "ODPOČET",
     "Heading": "Zbývá",
     "Days": "den | dny | dní",
     "Hours": "hodina | hodiny | hodin",
@@ -19,6 +21,7 @@
   },
 
   "Timeline": {
+    "Menu": "HARMONOGRAM",
     "Heading": "Harmonogram",
 
     "Arrival": {
@@ -29,7 +32,7 @@
     "Welcoming": {
       "Time": "13:30",
       "Heading": "PŘIVÍTÁNÍ",
-      "Text": "Welcome drink,\npárečky od ženíchova dědečka."
+      "Text": "Welcome drink,\npárečky od ženichova dědečka."
     },
     "Ceremony": {
       "Time": "14:00",
@@ -50,20 +53,25 @@
     },
     "BouquetToss": {
       "Heading": "HOD KYTICÍ"
+    },
+    "FunTime": {
+      "Heading": "ZÁBAVA AŽ DO RÁNA"
     }
   },
   "Location": {
+    "Menu": "MÍSTO",
     "Heading": "Kde se sejdeme",
     "Contact": "Kontakt",
     "Address": "VIGVAM PENZION s.r.o.<br>Němčice 152, 280 02<br>"
   },
   "RSVP": {
+    "Menu": "RSVP",
     "Heading": "RSVP",
     "Content": "Dejte nám, prosím, vědět, jestli se k nám připojíte (abychom zajistili dostatek všeho potřebného) a vyplňte tento krátký formulář.",
     "Label": {
       "FullName": "Jméno a příjmení",
       "PhoneOrMail": "Telefon nebo e-mail",
-      "Accomodation": "Přeji si zajistit ubytování (cca 700,-)",
+      "Accomodation": "Přeji si zajistit ubytování (ohledně možností a cen ubytování se Vám co nejdříve ozveme)",
       "Submit": "POTVRDIT ÚČAST"
     },
     "PlusOne": "Přivedu si doprovod",
@@ -72,8 +80,9 @@
     "Companion": "Doprovod"
   },
   "Info": {
+    "Menu": "DALŠÍ INFO",
     "Heading": "Svatební obřad",
-    "Content": "Pokud to počasí dovolí, bude se obřad konat venku, v případě deště se přesuneme do Vigvamu. Přizpůsobte tomu tedy své oblečení. Svatbu neladime do zadnych konkretnich barev."
+    "Content": "Pokud to počasí dovolí, bude se obřad konat venku, v případě deště se přesuneme do Vigvamu. Přizpůsobte tomu tedy své oblečení. Svatbu neladíme do žádných konkrétních barev."
   },
   "Transportation": {
     "Heading": "Parkování a doprava",
@@ -81,13 +90,16 @@
     "Content2": "Na místě budou od 20:00 k dispozici řidiči, kteří Vás případně večer/v noci odvezou domů."
   },
   "Gifts": {
+    "Menu": "DÁRKY",
     "Heading": "Svatební dary",
     "Content": "Vzhledem k tomu, že oba rádi cestujeme, oceníme jakýkoli finanční příspěvek, který použijeme na naši svatební cestu. Největším darem pro nás ale bude , když náš den prožijete s námi."
   },
   "Gallery": {
+    "Menu": "GALERIE",
     "Heading": "Fotografie"
   },
   "Contact": {
+    "Menu": "KONTAKT",
     "Heading": "Chybí Vám nějaká informace?",
     "Content": "Kontaktujte přímo ženicha či nevěstu."
   }

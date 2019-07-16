@@ -1,12 +1,18 @@
 {
+  "Jana": "Jana",
+  "Pepa": "Pepa",
   "Date": "19<sup>th</sup> October 2019",
+  "en": "ENGLISH",
+  "cs": "ČESKY",
 
   "Invitation": {
+    "Menu": "INVITATION",
     "Heading": "Dear friends",
     "Content": "We are looking forward to celebrating our wedding day with you. The ceremony and afterparty will all be held at one place – see the venue below."
   },
 
   "Countdown": {
+    "Menu": "COUNTDOWN",
     "Heading": "Countdown",
     "Days": "days | day | days",
     "Hours": "hours | hour | hours",
@@ -15,6 +21,7 @@
   },
 
   "Timeline": {
+    "Menu": "SCHEDULE",
     "Heading": "Schedule",
 
     "Arrival": {
@@ -35,9 +42,6 @@
     "Photoshooting": {
       "Heading": "PHOTOSHOOTING"
     },
-    "FreeTime": {
-      "Heading": "FREE ENTERTAINMENT"
-    },
     "Cake": {
       "Heading": "CAKE SLICING"
     },
@@ -46,14 +50,19 @@
     },
     "BouquetToss": {
       "Heading": "BOUQUET TOSS"
+    },
+    "FunTime": {
+      "Heading": "FUN UNTIL THE MORNING"
     }
   },
   "Location": {
+    "Menu": "LOCATION",
     "Heading": "Location",
     "Contact": "Contact",
     "Address": "VIGVAM PENZION s.r.o.<br>Němčice 152, 280 02<br>Czech Republic"
   },
   "RSVP": {
+    "Menu": "RSVP",
     "Heading": "RSVP",
     "Content": "Please let us know if you’ll join us, so that we can arrange all necessary things, and fill in this short questionnaire.",
     "Label": {
@@ -68,23 +77,28 @@
     "Companion": "Companion"
   },
   "Info": {
+    "Menu": "INFO",
     "Heading": "Wedding ceremony",
     "Content": "In case of nice weather the ceremony will take place outdoors,however, if it rains we will move it into the Vigvam. Adjust your outfit accordingly. There is no specific colour of the wedding."
   },
   "Transportation": {
+    "Menu": "TRANSPORTATION",
     "Heading": "How to get there",
     "Content1": "We will put you in the cars with our friends coming from Pragueandwillkeep you updated about that. Also on Sunday we will have someone to take you back toPrague. Of course, if you prefer to rent a car you can park it in the areal of Vigvam resort.",
     "Content2": ""
   },
   "Gifts": {
+    "Menu": "GIFTS",
     "Heading": "Wedding gifts",
     "Content": "The biggest gift for us is that you will be there to celebrate our big day. Since both of us love travelling we will appreciate any financial support that we will use for our honey moon. Sorry we’re not more original."
   },
   "Gallery": {
+    "Menu": "GALLERY",
     "Heading": "Photos",
     "Content": ""
   },
   "Contact": {
+    "Menu": "CONTACT",
     "Heading": "Missing any information?",
     "Content": "Contact Jana or Pepa."
   }

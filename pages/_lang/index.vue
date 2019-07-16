@@ -1,9 +1,9 @@
 <template>
-  <div class="exactly-one">
+  <div :class="'lang-' + locale">
 
 
     <!-- Landing section -->
-    <div class="main-slider">
+    <div id="landing" class="main-slider">
       <div class="display-table center-text">
         <div class="display-table-cell">
           <div class="slider-content">
@@ -19,7 +19,7 @@
 
 
     <!-- Invitation section -->
-    <section class="section story-area center-text">
+    <section id="invitation" class="section story-area center-text">
       <div class="container">
         <div class="row">
 
@@ -38,11 +38,11 @@
 
 
     <!-- Countdown section -->
-    <CountdownSection/>
+    <CountdownSection id="countdown" />
 
 
     <!-- Timeline section -->
-    <section class="section w-details-area center-text">
+    <section id="timeline" class="section w-details-area center-text">
       <div class="container">
         <div class="row">
 
@@ -78,23 +78,23 @@
               </div>
 
               <div class="w-detail right">
-                <i class="icon"><img src="/icons/icons8-wedding-56.png" alt="broom and bride" height="56" width="56"></i>
-                <h4 class="title">{{ $t('Timeline.FreeTime.Heading') }}</h4>
-              </div>
-
-              <div class="w-detail left">
                 <i class="icon icon-cake"></i>
                 <h4 class="title">{{ $t('Timeline.Cake.Heading') }}</h4>
               </div>
 
-              <div class="w-detail right">
+              <div class="w-detail left">
                 <i class="icon"><img src="/icons/icons8-ballroom-dance-56.png" alt="dance" height="56" width="56"></i>
                 <h4 class="title">{{ $t('Timeline.FirstDance.Heading') }}</h4>
               </div>
 
-              <div class="w-detail left">
+              <div class="w-detail right">
                 <i class="icon"><img src="/icons/icons8-camellia-56.png" alt="bouquet" height="56" width="56"></i>
                 <h4 class="title">{{ $t('Timeline.BouquetToss.Heading') }}</h4>
+              </div>
+
+              <div class="w-detail left">
+                <i class="icon"><img src="/icons/icons8-wedding-56.png" alt="broom and bride" height="56" width="56"></i>
+                <h4 class="title">{{ $t('Timeline.FunTime.Heading') }}</h4>
               </div>
 
             </div>
@@ -106,7 +106,7 @@
 
 
     <!-- Vigvam Location -->
-    <section class="section location-area center-text">
+    <section id="location" class="section location-area center-text">
       <div class="container">
         <div class="row">
 
@@ -149,64 +149,19 @@
       </div>
 
       <div class="container mt-5">
-        <div class="row">
-
-          <div class="col-sm-12">
-
-            <div class="image-gallery">
-              <div class="row">
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-1-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-2-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-3-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-4-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-5-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-1-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-        </div>
+        <Gallery
+          :images="vigvamImages"
+        />
       </div>
     </section>
 
+
     <!-- RSVP section -->
-    <RsvpSection/>
+    <RsvpSection id="rsvp"/>
 
 
     <!-- Info section -->
-    <section class="section info-area center-text">
+    <section id="info" class="section info-area center-text">
       <div class="container">
         <div class="row">
 
@@ -225,7 +180,7 @@
 
 
     <!-- Transportation section -->
-    <section class="section transportation-area center-text">
+    <section id="transportation" class="section transportation-area center-text">
       <div class="container">
         <div class="row">
 
@@ -244,8 +199,8 @@
     </section>
 
 
-    <!-- Info section -->
-    <section class="section gifts-area center-text">
+    <!-- Gifts section -->
+    <section id="gifts" class="section gifts-area center-text">
       <div class="container">
         <div class="row">
 
@@ -264,7 +219,7 @@
 
 
     <!-- Gallery section -->
-    <section class="section gallery-area center-text">
+    <section id="gallery" class="section gallery-area center-text">
       <div class="container">
         <div class="row">
 
@@ -275,50 +230,9 @@
               <span class="heading-bottom"><i class="icon icon-star"></i></span>
             </div>
 
-            <div class="image-gallery">
-              <div class="row">
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-1-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-2-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-3-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-4-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-5-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                  <a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom"
-                                                                            src="images/gallery-1-600x400.jpg"
-                                                                            alt="Gallery Image"></a>
-                </div>
-
-              </div>
-
-              <a class="btn-2 margin-bottom gallery-btn" href="#">VIEW ALL GALLERY</a>
-
-            </div>
+            <Gallery
+              :images="galleryImages"
+            />
 
           </div>
         </div>
@@ -327,7 +241,7 @@
 
 
     <!-- Contact section -->
-    <section class="section contact-area-2 center-text">
+    <section id="contact" class="section contact-area-2 center-text">
       <div class="container">
         <div class="row">
 
@@ -357,7 +271,19 @@
 
   .wedding-details:after {
     margin-top: 28px;
-    margin-bottom: 68px;
+    margin-bottom: 99px;
+  }
+
+  @media (min-width: 405px) {
+    .lang-en .wedding-details:after {
+      margin-bottom: 68px;
+    }
+  }
+
+  @media (min-width: 347px) {
+    .lang-cs .wedding-details:after {
+      margin-bottom: 68px;
+    }
   }
 
   @media (min-width: 480px) {
@@ -368,7 +294,13 @@
 
   @media (min-width: 768px) {
     .wedding-details:after {
-      margin-bottom: 88px;
+      margin-bottom: 119px !important;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .wedding-details:after {
+      margin-bottom: 88px !important;
     }
   }
 
