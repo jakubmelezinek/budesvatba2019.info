@@ -21,6 +21,7 @@
         <li><a href="#gallery">{{ $t('Gallery.Menu') }}</a></li>
         <li v-if="!menuOpened">|</li>
         <li><nuxt-link :to='otherLang'>{{ $t(otherLang) }}</nuxt-link></li>
+        <li v-if="!menuOpened">|</li>
       </ul>
 
     </div>
@@ -31,7 +32,7 @@
 
 <style>
   header .container {
-    width: 992px;
+    max-width: 992px;
   }
 
   @media (min-width: 767px) {
