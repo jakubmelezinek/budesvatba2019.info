@@ -14,12 +14,12 @@ const config: NuxtConfiguration = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v1' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Quando&display=swap' },
       { rel: 'stylesheet', href: '/common-css/bootstrap.css' },
       { rel: 'stylesheet', href: '/common-css/font-icon.css' },
-      { rel: 'stylesheet', href: '/styles.css' },
-      { rel: 'stylesheet', href: '/responsive.css' }
+      { rel: 'stylesheet', href: '/styles.v1.css' },
+      { rel: 'stylesheet', href: '/responsive.v1.css' }
     ],
     script: [
       { src: '/common-js/jquery-3.1.1.min.js', type: "application/javascript" },

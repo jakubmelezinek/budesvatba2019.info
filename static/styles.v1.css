@@ -256,8 +256,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 100vh; position: relative; z-index: 1;
-  background: url(/images/background/1.uvodni.jpg) no-repeat center top;
-	/*background: url(/images/background/2.uvodni.jpg) no-repeat center top;*/
+  background: url(images-v1/background/1.uvodni.jpg) no-repeat center top;
+	/*background: url(images-v1/background/2.uvodni.jpg) no-repeat center top;*/
   background-size: cover;
   color: #fff;
 }
@@ -281,7 +281,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .story-area{ position: relative; z-index: 1; }
 
 .story-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(/images/background/Background_Circle.png); }
+	opacity: .8; background: url(images-v1/background/Background_Circle.png); }
 
 
 /* ---------------------------------
@@ -291,7 +291,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .contact-area-2{ position: relative; z-index: 1; }
 
 .contact-area-2:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-  opacity: .8; background: url(/images/background/Background_Circle.png); }
+  opacity: .8; background: url(images-v1/background/Background_Circle.png); }
 
 
 
@@ -302,7 +302,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .rsvp-area{ position: relative; z-index: 1; }
 
 .rsvp-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-  opacity: .8; background: url(/images/background/Background_Circle.png); }
+  opacity: .8; background: url(images-v1/background/Background_Circle.png); }
 
 
 .contact-form{ padding: 50px 40px; border-radius: 5px; box-shadow: 1px 15px 40px rgba(0,0,0,.3);
@@ -327,7 +327,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .counter-area{ position: relative; z-index: 1;
-	background-image: url(/images/background/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
+	background-image: url(images-v1/background/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
 
 .counter-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -376,7 +376,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .info-area{ position: relative; z-index: 1;
-  background-image: url(/images/background/slider-1-1600x900.jpg); background-size: cover; color: #fff; }
+  background-image: url(images-v1/background/slider-1-1600x900.jpg); background-size: cover; color: #fff; }
 
 .info-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
   z-index: -1; background: rgba(0,0,0,.3); }
@@ -388,7 +388,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .gifts-area{ position: relative; z-index: 1;
-  background: url(/images/background/slider-2.jpg) no-repeat center bottom;
+  background: url(images-v1/background/slider-2.jpg) no-repeat center bottom;
   background-size: cover;
   color: #fff;
 }
@@ -428,7 +428,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 footer{ position: relative; z-index: 1; padding-top: 70px; }
 
 footer:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(/images/background/Background_Circle.png); }
+	opacity: .8; background: url(images-v1/background/Background_Circle.png); }
 
 footer ul > li > a{ padding: 10px 15px; }
 
