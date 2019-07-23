@@ -1,6 +1,8 @@
-import { Component, Prop, Vue, Watch } from "~/node_modules/vue-property-decorator";
+import Vue from 'vue';
+import Component from 'nuxt-class-component';
 import VueEasyLightbox from "vue-easy-lightbox/dist/vue-easy-lightbox.es5.esm.min.js";
 import IImage from "~/interfaces/IImage";
+import { Prop, Watch } from "nuxt-property-decorator";
 
 const BREAKPOINT = 768;
 
@@ -45,7 +47,6 @@ export default class Gallery extends Vue {
   }
 
   private onResize() {
-    console.log("onresize");
     this.windowWidth = window.innerWidth;
   }
 

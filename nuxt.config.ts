@@ -1,5 +1,7 @@
 import NuxtConfiguration from '@nuxt/config'
 
+declare const process;
+
 const config: NuxtConfiguration = {
   // Type or Press `Ctrl + Space` for autocompletion
   mode: 'spa',
@@ -41,6 +43,7 @@ const config: NuxtConfiguration = {
   */
   plugins: [
     '~/plugins/i18n.ts',
+    '~/plugins/firestore.ts',
   ],
   /*
   ** Nuxt.js modules

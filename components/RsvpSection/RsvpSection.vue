@@ -19,8 +19,27 @@
 
         <div class="col-sm-auto col-md-1 col-lg-2"></div>
         <div class="col-sm-12 col-md-10 col-lg-8">
-          <div class="contact-form margin-bottom">
-            <form id="attendees-form" method="post">
+          <div id="rsvp-form" class="contact-form margin-bottom">
+            <div
+              v-if="status === 'SUCCESS'"
+              class="contact-form__hint text-center"
+            >
+              <i class="icon"><img src="/icons/icons8-ok-56.png" alt="dance" height="56" width="56"></i>
+              {{ $t('RSVP.Submit.Success') }}
+              <p>{{ $t('RSVP.Submit.SuccessText') }}</p>
+            </div>
+            <div
+              v-else-if="status === 'ERROR'"
+              class="contact-form__hint text-center"
+            >
+              <i class="icon"><img src="/icons/icons8-cancel-56.png" alt="dance" height="56" width="56"></i>
+              {{ $t('RSVP.Submit.Error') }}
+              <p>{{ $t('RSVP.Submit.ErrorText') }}</p>
+            </div>
+            <form
+              v-else
+              id="attendees-form" @submit.prevent="onSubmit"
+            >
 
               <AttendeeForm
                 v-model="guest"
@@ -41,7 +60,7 @@
                 <div class="col-sm-12 margin-bottom">
                   <label class="checkbox-label">
                     <span v-if="emptyCompanions">{{ $t('RSVP.PlusOne') }}</span>
-                    <span v-else> {{ $t('RSVP.AnotherOne') }}</span>
+                    <span v-else>{{ $t('RSVP.AnotherOne') }}</span>
                     <input v-model="plusOne" type="checkbox">
                     <span class="checkmark"></span>
                   </label>
@@ -139,5 +158,9 @@
 
   #attendees-form > div:nth-last-of-type(3) {
     margin-bottom: 0;
+  }
+
+  .contact-form__hint p {
+    padding-top: 1em;
   }
 </style>

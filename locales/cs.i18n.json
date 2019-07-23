@@ -71,13 +71,19 @@
     "Label": {
       "FullName": "Jméno a příjmení",
       "PhoneOrMail": "Telefon nebo e-mail",
-      "Accomodation": "Přeji si zajistit ubytování (ohledně možností a cen ubytování se Vám co nejdříve ozveme)",
+      "Accommodation": "Přeji si zajistit ubytování (ohledně možností a cen ubytování se Vám co nejdříve ozveme)",
       "Submit": "POTVRDIT ÚČAST"
     },
     "PlusOne": "Přivedu si doprovod",
     "AnotherOne": "Další doprovod",
     "MinusOne": "[x]",
-    "Companion": "Doprovod"
+    "Companion": "Doprovod",
+    "Submit": {
+      "Success": "Odesláno",
+      "SuccessText": "Těšíme se na vás.",
+      "Error": "Chyba",
+      "ErrorText": "Kontaktujte, prosím, ženicha nebo nevěstu."
+    }
   },
   "Info": {
     "Menu": "DALŠÍ INFO",

@@ -68,29 +68,35 @@
     "Label": {
       "FullName": "Full name",
       "PhoneOrMail": "Phone or e-mail",
-      "Accomodation": "I need accomodation",
+      "Accommodation": "I need accommodation",
       "Submit": "I AM ATTENDING"
     },
     "PlusOne": "I am taking plus one",
     "AnotherOne": "Another one",
     "MinusOne": "[x]",
-    "Companion": "Companion"
+    "Companion": "Companion",
+    "Submit": {
+      "Success": "Sent",
+      "SuccessText": "We look forward to you.",
+      "Error": "Error",
+      "ErrorText": "Please, contact Jana or Pepa."
+    }
   },
   "Info": {
     "Menu": "INFO",
     "Heading": "Wedding ceremony",
-    "Content": "In case of nice weather the ceremony will take place outdoors,however, if it rains we will move it into the Vigvam. Adjust your outfit accordingly. There is no specific colour of the wedding."
+    "Content": "In case of nice weather the ceremony will take place outdoors, however, if it rains we will move it into the Vigvam. Adjust your outfit accordingly. There is no specific colour of the wedding."
   },
   "Transportation": {
     "Menu": "TRANSPORTATION",
     "Heading": "How to get there",
-    "Content1": "We will put you in the cars with our friends coming from Pragueandwillkeep you updated about that. Also on Sunday we will have someone to take you back toPrague. Of course, if you prefer to rent a car you can park it in the areal of Vigvam resort.",
+    "Content1": "We will put you in the cars with our friends coming from Prague and will keep you updated about that. Also on Sunday we will have someone to take you back to Prague. Of course, if you prefer to rent a car you can park it in the area of Vigvam resort.",
     "Content2": ""
   },
   "Gifts": {
     "Menu": "GIFTS",
     "Heading": "Wedding gifts",
-    "Content": "The biggest gift for us is that you will be there to celebrate our big day. Since both of us love travelling we will appreciate any financial support that we will use for our honey moon. Sorry we’re not more original."
+    "Content": "The biggest gift for us is that you will be there to celebrate our big day. Since both of us love travelling we will appreciate any financial support that we will use for our honey moon. Sorry we’re not more original :) ."
   },
   "Gallery": {
     "Menu": "GALLERY",

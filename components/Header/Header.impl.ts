@@ -1,10 +1,11 @@
-import { Component, Vue } from "~/node_modules/vue-property-decorator";
+import Vue from 'vue';
+import Component from 'nuxt-class-component';
 import { Action, State } from "~/node_modules/vuex-class";
 import { set_lang } from "~/store/names";
 
 declare const $;
 
-@Component
+@Component({})
 export default class Header extends Vue {
   @Action(set_lang) setLang;
   @State locale;
@@ -18,7 +19,6 @@ export default class Header extends Vue {
   mounted() {
     // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
     $("a").on('click', function(event) {
-      console.log("a on click");
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
         // Prevent default anchor click behavior

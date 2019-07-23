@@ -11,19 +11,19 @@
     <div class="col-sm-12 margin-bottom">
       <label>
         <span>{{ $t('RSVP.Label.FullName') }}</span>
-        <input v-model="value.fullName" name="full-name" type="text">
+        <input v-model="value.fullName" name="full-name" type="text" required>
       </label>
     </div>
     <div class="col-sm-12 margin-bottom">
       <label>
         <span>{{ $t('RSVP.Label.PhoneOrMail') }}</span>
-        <input v-model="value.contact" name="contact" type="text">
+        <input v-model="value.contact" name="contact" type="text" required>
       </label>
     </div>
 
     <div class="col-sm-12 margin-bottom">
       <label class="checkbox-label">
-        <span>{{ $t('RSVP.Label.Accomodation') }}</span>
+        <span>{{ $t('RSVP.Label.Accommodation') }}</span>
         <input v-model="value.accommodation" name="accomodation" type="checkbox">
         <span class="checkmark"></span>
       </label>

@@ -1,4 +1,5 @@
-import { Component, Vue } from "~/node_modules/vue-property-decorator";
+import Vue from 'vue';
+import Component from 'nuxt-class-component';
 import Header from '~/components/Header/Header.vue'
 import Footer from '~/components/Footer/Footer.vue'
 

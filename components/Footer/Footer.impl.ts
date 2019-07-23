@@ -1,6 +1,7 @@
-import { Component, Vue } from "~/node_modules/vue-property-decorator";
+import Vue from 'vue';
+import Component from 'nuxt-class-component';
 
-@Component
+@Component({})
 export default class Footer extends Vue {
 
 }

@@ -1,8 +1,9 @@
-import { Component, Vue } from "~/node_modules/vue-property-decorator";
+import Vue from 'vue';
+import Component from 'nuxt-class-component';
 
 declare const $;
 
-@Component
+@Component({})
 export default class CountdownSection extends Vue {
   $t: any;
   $tc: any;

@@ -1,7 +1,6 @@
 <template>
   <div :class="'lang-' + locale">
 
-
     <!-- Landing section -->
     <div id="landing" class="main-slider">
       <div class="display-table center-text">
