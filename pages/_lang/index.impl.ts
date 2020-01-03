@@ -68,4 +68,19 @@ export default class Homepage extends Vue {
     { src: "/images-v1/gallery/IMG_20160824_122654.jpg", tiny: "/images-v1/gallery/thumbnail/IMG_20160824_122654_tn.jpg" },
     { src: "/images-v1/gallery/IMG_20160826_112833.jpg", tiny: "/images-v1/gallery/thumbnail/IMG_20160826_112833_tn.jpg" },
   ];
+
+  private get weddingImages(): IImage[] {
+    let res: IImage[] = [];
+    for (let i = 1; i < 300; i++) {
+      if (i == 186) break; // PH-168 missing
+      let n = i.toString().padStart(3, "0");
+      res.push({ src: "/images-v1/wedding/PH-" + n + ".jpg", tiny: "/images-v1/wedding/thumbnail/PH-" + n + ".jpg" });
+    }
+    return res;
+  }
+
+  private honeymoonImages: IImage[] = [
+      // TODO
+    { src: "/images-v1/gallery/IMG_20160826_112833.jpg", tiny: "/images-v1/gallery/thumbnail/IMG_20160826_112833_tn.jpg" },
+  ];
 }

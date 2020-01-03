@@ -4,12 +4,12 @@
 
       <div
         v-for="(image, index) in images"
-        class="col-lg-4 col-md-6 image-gallery--image"
+        class="col-lg-4 col-md-6 image-gallery--image margin-bottom"
       >
-        <img class="margin-bottom"
-             @click="show(index)"
-             :src="active ? image.tiny : image.src"
-             :alt="image.alt ? image.alt : 'Gallery Image'">
+        <img
+            @click="show(index)"
+            :src="active ? image.tiny : image.src"
+            :alt="image.alt ? image.alt : 'Gallery Image'">
 
       </div>
 
@@ -30,19 +30,25 @@
 
 <style>
 
+  .image-gallery--image img {
+    image-orientation: from-image;
+    width: 100%;
+  }
+
   @media (min-width: 768px) {
     .image-gallery--image {
       cursor: pointer;
     }
+    .image-gallery--image img {
+      width: auto;
+      max-width: 100%;
+    }
   }
 
-  .image-gallery--image img {
-    image-orientation: from-image;
-  }
-
-  .vel-img {
+  img.vel-img {
     max-width: none;
     max-height: none;
     width: auto;
   }
+
 </style>

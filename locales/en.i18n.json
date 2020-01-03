@@ -101,7 +101,17 @@
   "Gallery": {
     "Menu": "GALLERY",
     "Heading": "Photos",
-    "Content": ""
+    "Content": "",
+    "Dating": {
+      "Heading": "Dating"
+    },
+    "Wedding": {
+      "Heading": "Wedding",
+      "Download": "Original photo size (for printing) at <a target='_blank' href='https://uloz.to/folder/R8236YZRyRSF'>https://uloz.to/folder/R8236YZRyRSF</a> or <a target='_blank' href='https://uloz.to/file/E8dtCOjIFwSo/samorozbalovaci-archiv-fotek-self-extracting-photo-archive-exe'>download archive here</a>."
+    },
+    "Honeymoon": {
+      "Heading": "Honeymoon"
+    }
   },
   "Contact": {
     "Menu": "CONTACT",

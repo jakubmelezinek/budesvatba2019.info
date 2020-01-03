@@ -226,6 +226,29 @@
 
             <div class="heading">
               <h2 class="title">{{ $t('Gallery.Heading') }}</h2>
+            </div>
+
+<!--            <div class="heading">-->
+<!--              <h2 class="title">{{ $t('Gallery.Honeymoon.Heading') }}</h2>-->
+<!--              <span class="heading-bottom"><i class="icon icon-star"></i></span>-->
+<!--            </div>-->
+
+<!--            <Gallery-->
+<!--                :images="honneymoonImages"-->
+<!--            />-->
+
+            <div class="heading">
+              <h4 class="title">{{ $t('Gallery.Wedding.Heading') }}</h4>
+              <span class="heading-bottom"><i class="icon icon-star"></i></span>
+              <p v-html="$t('Gallery.Wedding.Download')"></p>
+            </div>
+
+            <Gallery
+                :images="weddingImages"
+            />
+
+            <div class="heading">
+              <h4 class="title">{{ $t('Gallery.Dating.Heading') }}</h4>
               <span class="heading-bottom"><i class="icon icon-star"></i></span>
             </div>
 

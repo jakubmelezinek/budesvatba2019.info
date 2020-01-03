@@ -102,7 +102,18 @@
   },
   "Gallery": {
     "Menu": "GALERIE",
-    "Heading": "Fotografie"
+    "Heading": "Fotografie",
+    "Content": "",
+    "Dating": {
+      "Heading": "Spolu"
+    },
+    "Wedding": {
+      "Heading": "Svatba",
+      "Download": "Originální velikost fotek (pro tisk) na <a target='_blank' href='https://uloz.to/folder/R8236YZRyRSF'>https://uloz.to/folder/R8236YZRyRSF</a> nebo <a target='_blank' href='https://uloz.to/file/E8dtCOjIFwSo/samorozbalovaci-archiv-fotek-self-extracting-photo-archive-exe'>archiv ke stažení zde</a>."
+    },
+    "Honeymoon": {
+      "Heading": "Líbánky"
+    }
   },
   "Contact": {
     "Menu": "KONTAKT",
