@@ -43,7 +43,6 @@ const config: NuxtConfiguration = {
   */
   plugins: [
     '~/plugins/i18n.ts',
-    '~/plugins/firestore.ts',
   ],
   /*
   ** Nuxt.js modules

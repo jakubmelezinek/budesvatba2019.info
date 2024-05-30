@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import Component from 'nuxt-class-component';
 import CountdownSection from "~/components/CountdownSection/CountdownSection.vue";
-import RsvpSection from "~/components/RsvpSection/RsvpSection.vue";
 import Gallery from "~/components/Gallery/Gallery.vue";
 import IImage from "~/interfaces/IImage";
 import { State } from "~/node_modules/vuex-class";
@@ -9,7 +8,6 @@ import { State } from "~/node_modules/vuex-class";
 @Component({
   components: {
     CountdownSection,
-    RsvpSection,
     Gallery,
   },
 })
