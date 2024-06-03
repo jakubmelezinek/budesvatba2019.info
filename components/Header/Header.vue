@@ -9,19 +9,34 @@
       </div>
 
       <ul
-        id="main-menu"
-        class="main-menu visible-on-click"
-        :class="{'main-menu--opened' : menuOpened}"
+          id="main-menu"
+          class="main-menu visible-on-click"
+          :class="{'main-menu--opened' : menuOpened}"
       >
-        <li><a href="#timeline">{{ $t('Timeline.Menu') }}</a></li>
-        <li><a href="#location">{{ $t('Location.Menu') }}</a></li>
-        <li><a href="#rsvp"><u>{{ $t('RSVP.Menu') }}</u></a></li>
-        <li><a href="#info">{{ $t('Info.Menu') }}</a></li>
-        <li><a href="#gifts">{{ $t('Gifts.Menu') }}</a></li>
-        <li><a href="#gallery">{{ $t('Gallery.Menu') }}</a></li>
-        <li v-if="!menuOpened">|</li>
-        <li><nuxt-link :to='otherLang'>{{ $t(otherLang) }}</nuxt-link></li>
-        <li v-if="!menuOpened">|</li>
+        <li>
+          <div class="li-background"></div>
+          <a href="#timeline">{{ $t('Timeline.Menu') }}</a>
+        </li>
+        <li>
+          <div class="li-background"></div>
+          <a href="#location">{{ $t('Location.Menu') }}</a>
+        </li>
+        <li>
+          <div class="li-background"></div>
+          <a href="#rsvp"><u>{{ $t('RSVP.Menu') }}</u></a>
+        </li>
+        <li>
+          <div class="li-background"></div>
+          <a href="#info">{{ $t('Info.Menu') }}</a>
+        </li>
+        <li>
+          <div class="li-background"></div>
+          <a href="#gifts">{{ $t('Gifts.Menu') }}</a>
+        </li>
+        <li>
+          <div class="li-background"></div>
+          <a class="li-link" href="#gallery">{{ $t('Gallery.Menu') }}</a>
+        </li>
       </ul>
 
     </div>
@@ -38,6 +53,9 @@
   @media (min-width: 767px) {
     .main-menu {
       padding-bottom: 20px;
+      a {
+        color: white;
+      }
     }
   }
 

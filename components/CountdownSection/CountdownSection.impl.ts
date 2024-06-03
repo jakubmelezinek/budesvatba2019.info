@@ -9,7 +9,7 @@ export default class CountdownSection extends Vue {
   $tc: any;
 
   mounted() {
-    this.$clock.countdown('2019/10/19 14:00', (event) => {
+    this.$clock.countdown('2024/09/28 14:00', (event) => {
       if (this.$tc) {
         this.$clock.html(event.strftime(''
           + `<span>`

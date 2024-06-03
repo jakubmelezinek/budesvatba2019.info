@@ -40,8 +40,12 @@
       cursor: pointer;
     }
     .image-gallery--image img {
-      width: auto;
-      max-width: 100%;
+      /* width: auto;
+      max-width: 100%; */
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      max-height: 233px;
     }
   }
 

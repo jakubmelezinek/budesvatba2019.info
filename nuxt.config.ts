@@ -9,15 +9,18 @@ const config: NuxtConfiguration = {
   ** Headers of the page
   */
   head: {
-    title: "Jana & Pepa 19.10.2019",
+    title: "Martina a Jakub 28.9.2024",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v1' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Quando&display=swap' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon-MJ-outline.png?v8' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bellefair&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Quando&display=swap' }, // TODO remove this one
       { rel: 'stylesheet', href: '/common-css/bootstrap.css' },
       { rel: 'stylesheet', href: '/common-css/font-icon.css' },
       { rel: 'stylesheet', href: '/styles.v1.css' },
@@ -28,6 +31,7 @@ const config: NuxtConfiguration = {
       { src: '/common-js/tether.min.js', type: "application/javascript" },
       { src: '/common-js/bootstrap.js', type: "application/javascript" },
       { src: '/common-js/jquery.countdown.min.js', type: "application/javascript" },
+      { src: 'https://kit.fontawesome.com/db99df463b.js', type: "application/javascript" },
     ]
   },
   /*

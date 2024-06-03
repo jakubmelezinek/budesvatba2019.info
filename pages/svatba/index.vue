@@ -3,7 +3,7 @@ import Component from "nuxt-class-component";
 import Vue from "vue";
 
 @Component({})
-export default class RootIndex extends Vue {
+export default class SvatbaIndex extends Vue {
 
   mounted() {
     const skIndex = navigator.languages.indexOf("sk");
