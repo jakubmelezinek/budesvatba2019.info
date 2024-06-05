@@ -2,7 +2,7 @@
   <div class="exactly-one">
     <Header />
     <nuxt/>
-    <Footer />
+<!--    <Footer />-->
   </div>
 </template>
 

@@ -12,7 +12,8 @@ import { State } from "~/node_modules/vuex-class";
   },
 })
 export default class Homepage extends Vue {
-  @State private locale: string;
+  @State locale: string;
+  tel = "+420777987295"
 
   private stodolaImages: IImage[] = [
     { src: "/images-v1/stodola/stodola_01.jpeg", tiny: "/images-v1/stodola/thumbnail/stodola_01_tn.jpg" },

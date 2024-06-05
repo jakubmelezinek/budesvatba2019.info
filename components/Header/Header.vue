@@ -15,27 +15,27 @@
       >
         <li>
           <div class="li-background"></div>
-          <a href="#timeline">{{ $t('Timeline.Menu') }}</a>
+          <a href="#timeline">HARMONOGRAM</a>
         </li>
         <li>
           <div class="li-background"></div>
-          <a href="#location">{{ $t('Location.Menu') }}</a>
+          <a href="#location">MIESTO</a>
         </li>
         <li>
           <div class="li-background"></div>
-          <a href="#rsvp"><u>{{ $t('RSVP.Menu') }}</u></a>
+          <a href="#accommodation">UBYTOVANIE</a>
         </li>
         <li>
           <div class="li-background"></div>
-          <a href="#info">{{ $t('Info.Menu') }}</a>
-        </li>
-        <li>
-          <div class="li-background"></div>
-          <a href="#gifts">{{ $t('Gifts.Menu') }}</a>
+          <a href="#gifts">OSTATNÉ INFO</a>
         </li>
         <li>
           <div class="li-background"></div>
           <a class="li-link" href="#gallery">{{ $t('Gallery.Menu') }}</a>
+        </li>
+        <li>
+          <div class="li-background"></div>
+          <a href="#rsvp"><u>RSVP</u></a>
         </li>
       </ul>
 

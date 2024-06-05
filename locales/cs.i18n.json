@@ -13,11 +13,11 @@
 
   "Countdown": {
     "Menu": "ODPOČET",
-    "Heading": "Zbývá",
-    "Days": "den | dny | dní",
-    "Hours": "hodina | hodiny | hodin",
-    "Minutes": "minuta | minuty | minut",
-    "Seconds": "vteřina | vteřiny | vteřin"
+    "Heading": "Ostáva",
+    "Days": "deň | dni | dní",
+    "Hours": "hodina | hodiny | hodín",
+    "Minutes": "minúta | minúty | minút",
+    "Seconds": "sekunda | sekundy | sekúnd"
   },
 
   "Timeline": {

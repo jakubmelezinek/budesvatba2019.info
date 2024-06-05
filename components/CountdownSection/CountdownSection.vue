@@ -6,7 +6,7 @@
         <div class="col-sm-12">
           <div class="heading">
             <h2 class="title">{{ $t('Countdown.Heading') }}</h2>
-            <span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
+            <span class="heart_line_heading"><img src="/images-v1/background/heart_line.png" alt="line with heart" height="32px"></span>
           </div>
         </div>
 

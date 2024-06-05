@@ -66,7 +66,9 @@ h2,h3{
   /*font-family: 'Courgette', cursive;*/
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
-  font-style: italic;
+  /*text-transform: uppercase;*/
+  /*font-style: italic;*/
+  /*transform: skew(-15deg);*/
 }
 
 p{ line-height: 1.6; font-size: 1.25em; font-weight: 400; color: #555; }
@@ -130,7 +132,7 @@ b.light-color{ color: #444; }
 .border-btn:hover:before{ transform: translateX(0%); }
 
 
-.section{ padding: 100px 0 70px; }
+.section{ padding: 80px 0 70px; }
 
 .section .heading{ padding-bottom: 40px; }
 
@@ -277,7 +279,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 100vh; position: relative; z-index: 1;
-  background: url(images-v1/background/landing.jpg) no-repeat center top;
+  background: url(images-v1/background/landing_D.jpg) no-repeat center top;
   background-size: cover;
   color: #fff;
 }
@@ -298,10 +300,10 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 5. STORY AREA
 --------------------------------- */
 
-.story-area{ position: relative; z-index: 1; }
+/*.story-area{ position: relative; z-index: 1; }*/
 
-.story-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .03; background: url(images-v1/background/background_ornamenty.jpg); background-size: 350px}
+/*.story-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;*/
+/*	opacity: .03; background: url(images-v1/background/background_ornamenty.jpg); background-size: 350px}*/
 
 
 /* ---------------------------------
@@ -311,7 +313,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .contact-area-2{ position: relative; z-index: 1; }
 
 .contact-area-2:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-  opacity: .8; background: url(images-v1/background/Background_Circle.png); }
+  opacity: .03; background: url(images-v1/background/background_ornamenty.jpg); background-size: 350px }
 
 
 
@@ -319,10 +321,10 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 5. RSVP AREA
 --------------------------------- */
 
-.rsvp-area{ position: relative; z-index: 1; }
+/*.rsvp-area{ position: relative; z-index: 1; }*/
 
-.rsvp-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-  opacity: .8; background: url(images-v1/background/Background_Circle.png); }
+/*.rsvp-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;*/
+/*  opacity: .8; background: url(images-v1/background/Background_Circle.png); }*/
 
 
 .contact-form{ padding: 50px 40px; border-radius: 5px; box-shadow: 1px 15px 40px rgba(0,0,0,.3);
@@ -347,7 +349,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .counter-area{ position: relative; z-index: 1;
-	background-image: url(images-v1/background/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
+  background-position: center center;
+	background-image: url(images-v1/background/countdown_bg.jpg); background-size: cover; color: #fff; }
 
 .counter-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -409,7 +412,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .gifts-area{ position: relative; z-index: 1;
-  background: url(images-v1/background/slider-2.jpg) no-repeat center bottom;
+  background: url(images-v1/background/gifts_bg2.jpeg) no-repeat center center;
   background-size: cover;
   color: #fff;
 }
@@ -418,6 +421,33 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
   z-index: -1; background: rgba(0,0,0,.3); }
 
 .gifts-area .desc{ margin-bottom: 15px; color: #fff; }
+
+/* ------------------ */
+
+.dresscode-area{ position: relative; z-index: 1;
+  background: url(images-v1/background/dresscode_bg.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.dresscode-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1; background: rgba(0,0,0,.3); }
+
+.dresscode-area .desc{ margin-bottom: 15px; color: #fff; }
+
+/* ------------------ */
+
+.rsvp-area{ position: relative; z-index: 1;
+  background: url(images-v1/background/rsvp_bg.webp) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.rsvp-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1; background: rgba(0,0,0,.3); }
+
+.rsvp-area .desc{ margin-bottom: 15px; color: #fff; }
+
 
 
 /* ---------------------------------
@@ -449,7 +479,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 footer{ position: relative; z-index: 1; padding-top: 70px; }
 
 footer:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(images-v1/background/Background_Circle.png); }
+	opacity: .8; background: url(images-v1/background/background_ornamenty.jpg); }
 
 footer ul > li > a{ padding: 10px 15px; }
 
@@ -480,7 +510,7 @@ footer .email-area .submit-btn:hover{ background: #000; color: #E55D73; }
 footer .copyright{ padding: 20px 0 30px; }
 
 .droplet {
-  position: fixed;
+  position: absolute;
   width: 20px;
   left: calc(50% - 10px);
   bottom: 30px;
@@ -489,7 +519,7 @@ footer .copyright{ padding: 20px 0 30px; }
 }
 
 section {
-  z-index: 2;
+  /*z-index: 2;*/
   position: relative;
   background-color: white;
 }
