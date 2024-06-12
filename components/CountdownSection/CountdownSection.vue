@@ -1,5 +1,5 @@
 <template>
-  <section class="section counter-area center-text">
+  <section class="section counter-area center-text white-text">
     <div class="container">
       <div class="row">
 
@@ -22,3 +22,9 @@
 </template>
 
 <script src="./CountdownSection.impl.ts" lang="ts"></script>
+
+<style>
+ .time-sec .title {
+   font-family: "EB Garamond", serif;
+ }
+</style>

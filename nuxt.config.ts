@@ -19,8 +19,7 @@ const config: NuxtConfiguration = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon-MJ-outline.png?v8' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bellefair&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Quando&display=swap' }, // TODO remove this one
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap' },
       { rel: 'stylesheet', href: '/common-css/bootstrap.css' },
       { rel: 'stylesheet', href: '/common-css/font-icon.css' },
       { rel: 'stylesheet', href: '/styles.v1.css' },

@@ -59,7 +59,7 @@
               <div class="w-detail right">
                 <i class="fa-solid fa-bus fa-2xl"></i>
                 <h4 class="title">AUTOBUS 13:00</h4>
-                <p>Od hotelu Vás ke Stodole odveze připravený autobus</p>
+                <p>Od hotelu vás ke Stodole odveze připravený autobus</p>
               </div>
 
               <div class="w-detail left">
@@ -189,7 +189,7 @@
 
             <p class="desc margin-bottom">
               Dúfame, že s nami ostanete kaliť až do rána a nebudete sa od nás ponáhľať domov. Ubytovanie máme pre vás dohodnuté v Modřicích.
-              Môže sa stať, že vašaizba ešte nebude pripravená pred odchodom na obrad. Urobíme ale všetko pre vaše maximálne pohodlie a minimálne budú nachystané izby, kde sa môžete osviežiť, pripraviť sa a nechať si veci. Prípadne môžete ísť s nami do toho all in a prísť už v piatok ako my :)</p>
+              Môže sa stať, že vaša izba ešte nebude pripravená pred odchodom na obrad. Urobíme ale všetko pre vaše maximálne pohodlie a minimálne budú nachystané izby, kde sa môžete osviežiť, pripraviť sa a nechať si veci. Prípadne môžete ísť s nami do toho all in a prísť už v piatok ako my :)</p>
 
             <h3>Presun na hostinu</h3>
             <p class="desc margin-bottom">
@@ -209,7 +209,7 @@
 
 
     <!-- Gifts section -->
-    <section id="gifts" class="section gifts-area center-text">
+    <section id="gifts" class="section gifts-area center-text white-text">
       <div class="container">
         <div class="row">
 
@@ -248,7 +248,7 @@
     </section>
 
     <!-- Dresscode section -->
-    <section id="dresscode" class="section dresscode-area center-text">
+    <section id="dresscode" class="section dresscode-area center-text white-text">
       <div class="container">
         <div class="row">
 
@@ -262,8 +262,8 @@
           <p class="desc margin-bottom">
             Nebudeme vás zaťažovať špeciálnymi požiadavkami, aj tak si určite nemáte čo obliecť :D Všetko, v čom sa
             budete cítiť pohodlne a bude to odpovedať výnimočnosti situácie, je v poriadku.
-            Ak sa chcete zladiť do farieb našej svadby, prikladáme farebnú paletu. Bielu farbu a farby jej podobné
-            prenechajte ale, prosím, neveste.
+            Ak sa chcete zladiť do farieb našej svadby, prikladáme <a target="_blank" href="/images-v1/color-palet.png"><span class="link_in_text">farebnú paletu</span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a>.
+            Bielu farbu a farby jej podobné prenechajte ale, prosím, neveste.
           </p>
         </div>
       </div>
@@ -283,11 +283,12 @@
 <!--            <i class="icon"><img src="/icons/sk-small.png" alt="sk flag" height="56" width="56"></i>-->
 
             <h3>
-              <i class="icon"><img src="/icons/sk-small.png" alt="sk flag"></i>
-              &nbsp;
-              Co si pod tím máte představit?
-              &nbsp;
-              <i class="icon"><img src="/icons/cz-small.png" alt="cz flag"></i>
+              <span class="line">
+              <i class="icon flag"><img src="/icons/sk-small.png" alt="sk flag"></i>
+              &nbsp;Co si pod tím</span>
+              <span class="line">máte představit?&nbsp;
+              <i class="icon flag"><img src="/icons/cz-small.png" alt="cz flag"></i>
+              </span>
             </h3>
 
             <h4>Začnem veľkou prosbičkou</h4>
@@ -301,7 +302,7 @@
             </p>
 
             <p class="desc margin-bottom">
-              Pri čepčení nevesty sa od vás neočakáva nič. Počas tejto tradície sa zo slobodnej dievky stáva manželka a vydaté ženy ju prijímajú medzi seba. Možno nebudete rozumieť úplne každému slovu v pesničkách, keďže sa tam môže objaviť nárečie, no pevne verím, že atmosféra tohto okamihu vás očarí a túto krásnu tradíciu si užijete
+              Pri čepčení nevesty sa od vás neočakáva nič. Počas tejto tradície sa zo slobodnej dievky stáva manželka a vydaté ženy ju prijímajú medzi seba. Možno nebudete rozumieť úplne každému slovu v pesničkách, keďže sa tam môže objaviť nárečie, no pevne verím, že atmosféra tohto okamihu vás očarí a túto krásnu tradíciu si užijete.
             </p>
 
             <p class="desc margin-bottom">
@@ -318,7 +319,7 @@
 
 
     <!-- RSVP section -->
-    <section id="rsvp" class="section rsvp-area center-text">
+    <section ref="rsvpSection" id="rsvp" class="section rsvp-area center-text white-text">
       <div class="container">
         <div class="row">
 
@@ -329,10 +330,10 @@
             </div>
 
             <p class="desc margin-bottom">
-              Prosím vás o vyplnění tohoto krátkého
-              <a target="_blank" href="https://todo"><span class="link_in_text">dotazníku</span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a>
-              a to do 1.7. Po tomto datu vás stále rádi uvidime ale doneste si s sebou stoličku a řízek s chlebem :D
+              Prosíme vás o co nejdřívější vyplnění tohoto krátkého dotazníku. Nejpozději však do 12.7.
+              Po tomto datu vás stále rádi uvidime ale doneste si s sebou stoličku a řízek s chlebem :D
             </p>
+            <iframe ref="rsvpForm" @load="rsvpLoaded" src="https://docs.google.com/forms/d/e/1FAIpQLScfmxohAtx6kgUX7SfBifBuIuN-ZTvNHvjHlIvIM3PNTfx_Zg/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </div>
 
         </div>
@@ -569,6 +570,34 @@
 
   .link_in_text {
     text-decoration: underline solid 1px;
+  }
+
+  @media (max-width: 992px) {
+    .flag img {
+      width: 75%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .flag img {
+      width: 75%;
+    }
+  }
+
+  @media (max-width: 667px) {
+    .flag img {
+      width: 66%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .flag img {
+      width: 50%;
+    }
+  }
+
+  span.line {
+    display: inline-block;
   }
 
 </style>

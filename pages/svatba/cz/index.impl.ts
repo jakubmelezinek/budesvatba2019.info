@@ -14,6 +14,7 @@ import { State } from "~/node_modules/vuex-class";
 export default class Homepage extends Vue {
   @State locale: string;
   tel = "+420777987295"
+  loadedCount = 0;
 
   private stodolaImages: IImage[] = [
     { src: "/images-v1/stodola/stodola_01.jpeg", tiny: "/images-v1/stodola/thumbnail/stodola_01_tn.jpg" },
@@ -46,4 +47,41 @@ export default class Homepage extends Vue {
       // TODO
     { src: "/images-v1/gallery/IMG_20160826_112833.jpg", tiny: "/images-v1/gallery/thumbnail/IMG_20160826_112833_tn.jpg" },
   ];
+
+  private rsvpLoaded() {
+    this.loadedCount++;
+    let mod = this.loadedCount % 5;
+    let rsvpForm= this.getRsvpForm();
+
+    if(this.isSmallScreen()) {
+      console.log("is small screen")
+      switch(mod) {
+        case 0: rsvpForm.height = "400px"; break; // submit another page
+        case 1: rsvpForm.height = "850px"; break; // first page
+        case 2: rsvpForm.height = "1200px"; break;
+        case 3: rsvpForm.height = "1500px"; break;
+        case 4: rsvpForm.height = "650px"; break;
+      }
+    } else {
+      switch(mod) {
+        case 0: rsvpForm.height = "300px"; break; // submit another page
+        case 1: rsvpForm.height = "750px"; break; // first page
+        case 2: rsvpForm.height = "1000px"; break;
+        case 3: rsvpForm.height = "1300px"; break;
+        case 4: rsvpForm.height = "550px"; break;
+      }
+    }
+    if(this.loadedCount != 1) {
+      (this.$refs.rsvpSection as HTMLDivElement).scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  getRsvpForm(): HTMLIFrameElement {
+    return this.$refs.rsvpForm as HTMLIFrameElement;
+  }
+
+  isSmallScreen() {
+    return window.innerWidth < 600;
+  }
+
 }

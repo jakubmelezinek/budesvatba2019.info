@@ -47,20 +47,24 @@
 
 <style>
   header .container {
-    max-width: 992px;
+    //max-width: 992px;
   }
 
   @media (min-width: 767px) {
-    .main-menu {
-      padding-bottom: 20px;
-      a {
+    .main-menu a {
         color: white;
-      }
     }
   }
 
   .main-menu--opened {
     display: block !important;
+  }
+
+  @media (max-width: 767px) {
+    header .container {
+      width: 100%;
+      margin: 0;
+    }
   }
 
 </style>
