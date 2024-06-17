@@ -126,7 +126,7 @@
               <h2 class="title bg-line"><span>Kde si povieme svoje áno</span></h2>
             </div>
 
-            <p>Kde inde by mohla byť československá svadba ako pri hraniciach. Stretneme sa na Južnej Morave, v Stodole pod Lesem.
+            <p>Kde inde by mohla byť československá svadba ako pri hraniciach. Stretneme sa na Južnej Morave, v Stodole Pod Lesem.
               Obrad aj párty až do rána bieleho budú na jednom mieste, žiadne presúvanie vás po príchode už nečaká.</p>
 
           </div>
@@ -188,12 +188,12 @@
             </div>
 
             <p class="desc margin-bottom">
-              Dúfame, že s nami ostanete kaliť až do rána a nebudete sa od nás ponáhľať domov. Ubytovanie máme pre vás dohodnuté v Modřicích.
+              Dúfame, že se s nami budete zabávať až do rána bieleho a nebudete sa od nás ponáhľať domov. Ubytovanie máme pre vás dohodnuté v Modřicích. Cena za osobu na noc s raňajkami bude približne 1000 Kč (40 EUR).
               Môže sa stať, že vaša izba ešte nebude pripravená pred odchodom na obrad. Urobíme ale všetko pre vaše maximálne pohodlie a minimálne budú nachystané izby, kde sa môžete osviežiť, pripraviť sa a nechať si veci. Prípadne môžete ísť s nami do toho all in a prísť už v piatok ako my :)</p>
 
             <h3>Presun na hostinu</h3>
             <p class="desc margin-bottom">
-              Ak sa rozhodnete ubytovať, auto nechávate pri hoteli a nič viac neriešite. Na miesto činu vás zoberie pripravený autobus.
+              Ak sa rozhodnete ubytovať, auto nechávate pri hoteli a nič viac neriešite. Na miesto činu vás zoberie pripravený autobus. Po skončení zábavy bude o dopravu na hotel tiež postarané.
             </p>
 
             <h3>Parkovanie</h3>
@@ -330,7 +330,7 @@
             </div>
 
             <p class="desc margin-bottom">
-              Prosíme vás o co nejdřívější vyplnění tohoto krátkého dotazníku. Nejpozději však do 12.7.
+              Prosíme vás o co nejdřívější vyplnění tohoto krátkého dotazníku. Nejpozději však do 31.7.
               Po tomto datu vás stále rádi uvidime ale doneste si s sebou stoličku a řízek s chlebem :D
             </p>
             <iframe ref="rsvpForm" @load="rsvpLoaded" src="https://docs.google.com/forms/d/e/1FAIpQLScfmxohAtx6kgUX7SfBifBuIuN-ZTvNHvjHlIvIM3PNTfx_Zg/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

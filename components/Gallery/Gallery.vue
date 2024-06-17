@@ -9,6 +9,7 @@
         <img
             @click="show(index)"
             :src="active ? image.tiny : image.src"
+            :class="image.class"
             :alt="image.alt ? image.alt : 'Gallery Image'">
 
       </div>
@@ -46,6 +47,12 @@
       height: 100%;
       object-fit: cover;
       max-height: 233px;
+    }
+    .image-gallery--image img.position-top {
+      object-position: center top;
+    }
+    .image-gallery--image img.position-bottom {
+      object-position: center bottom;
     }
   }
 
