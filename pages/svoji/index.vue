@@ -10,7 +10,7 @@
             <h3 class="date">28. 9. 2024</h3>
           </div>
           <div>
-            <a href="#invitation"><i class="droplet"><img src="/icons/droplet-white.png" alt="droplet" width="614"></i>
+            <a id="droplet" href="#invitation" ><i class="droplet"><img src="/icons/droplet-white.png" alt="droplet" width="614"></i>
           </a></div>
         </div>
       </div>
@@ -41,79 +41,6 @@
 
     <!-- Countdown section -->
     <CountdownSection id="countdown" />
-
-
-    <!-- Timeline section -->
-    <section id="timeline" class="section w-details-area center-text">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-sm-12">
-
-            <div class="heading">
-              <h2 class="title bg-line"><span>Harmonogram</span></h2>
-            </div>
-
-            <div class="wedding-details margin-bottom">
-
-              <div class="w-detail right">
-                <i class="fa-solid fa-bus fa-2xl"></i>
-                <h4 class="title">AUTOBUS 13:00</h4>
-                <p>Od hotelu vás ke Stodole odveze připravený autobus</p>
-              </div>
-
-              <div class="w-detail left">
-                <i class="icon icon-wine-glass"></i>
-                <h4 class="title">PŘIVÍTÁNÍ 13:30</h4>
-                <p>Welcome drink, občerstvení</p>
-              </div>
-
-              <div class="w-detail right">
-                <i class="icon icon-ciurclke"></i>
-                <h4 class="title">OBŘAD 14:00</h4>
-              </div>
-
-              <div class="w-detail left">
-                <i class="fa-solid fa-utensils"></i>
-                <h4 class="title">HOSTINA</h4>
-              </div>
-
-              <div class="w-detail right">
-                <i class="icon icon-cake"></i>
-                <h4 class="title">KRAJENÍ DORTU</h4>
-              </div>
-
-              <div class="w-detail left">
-                <i class="icon"><img src="/icons/icons8-gesellschaftstanz-50.png" alt="dance" height="56" width="56"></i>
-                <h4 class="title">PRVNÍ TANEC</h4>
-              </div>
-
-              <div class="w-detail right">
-                <i class="icon icon-camera"></i>
-                <h4 class="title">FOTOKOUTEK</h4>
-              </div>
-
-              <div class="w-detail left">
-                <i class="fa-solid fa-question"></i>
-                <h4 class="title">MORE</h4>
-              </div>
-
-<!--              <div class="w-detail right">-->
-<!--                <i class="icon"><img src="/icons/icons8-camellia-56.png" alt="bouquet" height="56" width="56"></i>-->
-<!--                <h4 class="title">{{ $t('Timeline.BouquetToss.Heading') }}</h4>-->
-<!--              </div>-->
-
-<!--              <div class="w-detail left">-->
-<!--                <i class="icon"><img src="/icons/icons8-wedding-56.png" alt="broom and bride" height="56" width="56"></i>-->
-<!--                <h4 class="title">{{ $t('Timeline.FunTime.Heading') }}</h4>-->
-<!--              </div>-->
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
 
     <!-- Stodola Location -->
     <section id="location" class="section location-area center-text">
@@ -176,6 +103,78 @@
       </div>
     </section>
 
+    <!-- Timeline section -->
+    <section id="timeline" class="section w-details-area center-text">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12">
+
+            <div class="heading">
+              <h2 class="title bg-line"><span>Harmonogram</span></h2>
+            </div>
+
+            <div class="wedding-details margin-bottom">
+
+              <div class="w-detail right">
+                <i class="fa-solid fa-bus-simple fa-2xl"></i>
+                <h4 class="title">AUTOBUS 13:00</h4>
+                <p>Od hotela vás ku Stodole odvezie pripravený autobus.</p>
+              </div>
+
+              <div class="w-detail left">
+                <i class="icon icon-wine-glass"></i>
+                <h4 class="title">PRIVÍTANIE 13:30</h4>
+                <p>Welcome drink, občerstvenie.</p>
+              </div>
+
+              <div class="w-detail right">
+                <i class="icon icon-ciurclke"></i>
+                <h4 class="title">OBRAD 14:00</h4>
+              </div>
+
+              <div class="w-detail left">
+                <i class="icon"><img src="/icons/icons8-dining-room-100.png" alt="dance" height="56" width="56"></i>
+                <h4 class="title">HOSTINA</h4>
+              </div>
+
+              <div class="w-detail right">
+                <i class="icon icon-cake"></i>
+                <h4 class="title">KRÁJANIE TORTY</h4>
+              </div>
+
+              <div class="w-detail left">
+                <i class="icon"><img src="/icons/icons8-gesellschaftstanz-100.png" alt="dance" height="56" width="56"></i>
+                <h4 class="title">PRVÝ TANEC</h4>
+              </div>
+
+              <div class="w-detail right">
+                <i class="icon icon-camera"></i>
+                <h4 class="title">FOTOKÚTIK</h4>
+              </div>
+
+              <div class="w-detail left">
+                <i class="icon"><img src="/icons/icons8-konfetti-100.png" alt="bouquet" height="56" width="56"></i>
+                <h4 class="title">ZÁBAVA</h4>
+                <p>Pedro, Pedro, Pedro... Pedro, pe</p>
+              </div>
+
+              <!--              <div class="w-detail right">-->
+              <!--                <i class="icon"><img src="/icons/icons8-camellia-56.png" alt="bouquet" height="56" width="56"></i>-->
+              <!--                <h4 class="title">{{ $t('Timeline.BouquetToss.Heading') }}</h4>-->
+              <!--              </div>-->
+
+              <!--              <div class="w-detail left">-->
+              <!--                <i class="icon"><img src="/icons/icons8-wedding-56.png" alt="broom and bride" height="56" width="56"></i>-->
+              <!--                <h4 class="title">{{ $t('Timeline.FunTime.Heading') }}</h4>-->
+              <!--              </div>-->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
     <!-- Accommodation section -->
     <section id="accommodation" class="section accomodation-area center-text">
@@ -188,8 +187,8 @@
             </div>
 
             <p class="desc margin-bottom">
-              Dúfame, že se s nami budete zabávať až do rána bieleho a nebudete sa od nás ponáhľať domov. Ubytovanie máme pre vás dohodnuté v Modřicích. Cena za osobu na noc s raňajkami bude približne 1000 Kč (40 EUR).
-              Môže sa stať, že vaša izba ešte nebude pripravená pred odchodom na obrad. Urobíme ale všetko pre vaše maximálne pohodlie a minimálne budú nachystané izby, kde sa môžete osviežiť, pripraviť sa a nechať si veci. Prípadne môžete ísť s nami do toho all in a prísť už v piatok ako my :)</p>
+              Dúfame, že sa s nami budete zabávať až do rána bieleho a nebudete sa od nás ponáhľať domov. Ubytovanie máme pre vás dohodnuté v Modřicích - hotel Lion, hotel U Kostela, Apartments 461. Cena za osobu na noc s raňajkami bude do 1000 Kč (40 EUR).
+              Môže sa stať, že vaša izba nebude pred odchodom na obrad ešte pripravená. Urobíme ale všetko pre vaše maximálne pohodlie a minimálne budú nachystané izby, kde sa môžete osviežiť, pripraviť a nechať si veci. Prípadne môžete ísť s nami do toho all in a prísť už v piatok ako my :)</p>
 
             <h3>Presun na hostinu</h3>
             <p class="desc margin-bottom">
@@ -220,7 +219,8 @@
             </div>
           </div>
 
-          <p class="desc margin-bottom">Za tých pár rokov spolu už máme snáď všetko, čo potrebujeme aj nepotrebujeme. Vecnými darmi sa teda netrápte. Ak nás chcete potešiť, príspevku na naše ďalšie cestovateľské zážitky sa veľmi potešíme. Kytičkami sa tak isto netrápte a kvety v kvetináčoch pri mne aj tak neprežijú.</p>
+          <p class="desc margin-bottom">Za tých pár rokov spolu už máme snáď všetko, čo potrebujeme aj nepotrebujeme. Vecnými darmi sa teda netrápte. Ak nás chcete potešiť, príspevku na naše ďalšie cestovateľské zážitky sa veľmi potešíme.
+            Kytičkami sa tak isto netrápte a kvety v kvetináčoch si určite zaslúžia lepší osud.</p>
 
         </div>
       </div>
@@ -238,7 +238,7 @@
             </div>
 
             <p class="desc margin-bottom">
-              Rozhodli sme sa na našej svadbe venovať vám priepustku a zabaviť sa s nami ako za starých čias. Dajte si voľníčko od rodičovských povinností, detičky dajte na starosť do dobrých rúk a doprajte si randíčko.
+              Rozhodli sme sa poňať náš veľký deň ako oslavu lásky v kruhu dospelých. Pevne veríme, že náš návrh zobrať si voľno od rodičovských povinností prijmete pozitívne a užijete si čas jeden pre druhého.
             </p>
 
           </div>
@@ -291,9 +291,9 @@
               </span>
             </h3>
 
-            <h4>Začnem veľkou prosbičkou</h4>
+            <h4>Začnem veľkou prosbičkou.</h4>
             <p class="desc margin-bottom">
-              Slovenské svadby sú slávnosťou po celý deň, nie len počas obradu. V tom, v čom prídeme oblečení na obrad, ostávame po celý deň. Mojím prianím je, aby to takto bolo aj na našej svadbe. Zažila som svadby, kde boli hostia v teplákoch, v športovom oblečení alebo v rifliach a hlava mi to nebrala. Ak sa budete chcieť prezliecť do niečoho pohodlnejšieho, prosím, nech je to stále primerané spoločenskej udalosti.
+              Slovenské svadby sú slávnosťou po celý deň, nie len počas obradu. V tom, v čom prídeme oblečení na obrad, ostávame po celý deň. Mojím prianím je, aby to takto bolo aj na našej svadbe. Ak sa budete chcieť prezliecť do niečoho pohodlnejšieho, prosím, nech je to stále primerané spoločenskej udalosti. Športové oblečenie či rifle nechajte doma.
             </p>
 
 
@@ -306,9 +306,10 @@
             </p>
 
             <p class="desc margin-bottom">
-              Redový tanec nasleduje po čepčení a zapájajú sa do neho všetci svadobčania. Jedná sa o príležitosť svadobčanov zatancovať si s novopečenou manželkou predtým, ako sa odovzdá mužovi. Svadobčania vytvoria okolo nevesty kruh a aby vás do kruhu pustili si s ňou zatancovať, musíte do klobúka hodiť nejakú korunku.
-              Nedeste sa, nejde nám o to vyžmýkať z vás peniaze. Každý prihodí bankovku podľa svojho uváženia. Napríklad na Slovensku hádžeme od 5EUR, keďže je to najnižšia bankovka, po momentálnu hladinu štedrosti ovplyvnenú hladinou alkoholu.
-              Za odmenu si zatancujete s nevestou a dostanete ešte malú výslužku. S nevestou bežne tancuje pár, rodinka, nemusíte po jednom. Ak to znie komplikovane, sledujte, ako to robí slovenské osadenstvo.
+              Redový tanec nasleduje po čepčení a zapájajú sa do neho všetci svadobčania. Jedná sa o príležitosť svadobčanov zatancovať si s novopečenou manželkou predtým, ako sa odovzdá mužovi.
+              Svadobčania vytvoria okolo nevesty kruh a aby vás do neho pustili zatancovať si s ňou, hodíte do klobúka nejakú korunku.
+              Nebojte sa, nejde nám o to dostať z vás peniaze. Každý prihodí korunku podľa svojho uváženia. Na Slovensku napríklad hádžeme od najnižšej bankovky (5 EUR) po momentálny level štedrosti ovplyvnený aktuálnou hladinou alkoholu.
+              Za odmenu si zatancujete s nevestou a ešte dostanete malú výslužku. S nevestou bežne tancuje pár, rodinka, nemusíte (a prosím netancujte) po jednom. Ak to znie komplikovane, sledujte, ako to robí slovenské osadenstvo.
             </p>
 
           </div>
@@ -376,7 +377,7 @@
               <h4 class="title">Naše cesta životem</h4>
             </div>
 
-            <div class="galery-stodola">
+            <div class="galery-stodola" v-if="isGaleryVisible">
               <Gallery
                 :images="galleryImages"
               />
@@ -431,36 +432,30 @@
 
   .wedding-details:after {
     margin-top: 28px;
-    margin-bottom: 99px;
+    margin-bottom: 120px;
   }
 
-  @media (min-width: 405px) {
-    .lang-en .wedding-details:after {
-      margin-bottom: 68px;
-    }
-  }
-
-  @media (min-width: 347px) {
-    .lang-cs .wedding-details:after {
-      margin-bottom: 68px;
+  @media (min-width: 318px) {
+    .wedding-details:after {
+      margin-bottom: 110px !important;
     }
   }
 
   @media (min-width: 480px) {
     .wedding-details:after {
-      margin-bottom: 78px;
+      margin-bottom: 110px !important;
     }
   }
 
   @media (min-width: 768px) {
     .wedding-details:after {
-      margin-bottom: 119px !important;
+      margin-bottom: 150px !important;
     }
   }
 
   @media (min-width: 992px) {
     .wedding-details:after {
-      margin-bottom: 88px !important;
+      margin-bottom: 120px !important;
     }
   }
 
@@ -569,7 +564,7 @@
   }
 
   .link_in_text {
-    text-decoration: underline solid 1px;
+    text-decoration: underline solid 1px !important;
   }
 
   @media (max-width: 992px) {

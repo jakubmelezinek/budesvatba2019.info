@@ -5,6 +5,8 @@ import Gallery from "~/components/Gallery/Gallery.vue";
 import IImage from "~/interfaces/IImage";
 import { State } from "~/node_modules/vuex-class";
 
+declare const $;
+
 @Component({
   components: {
     CountdownSection,
@@ -15,6 +17,37 @@ export default class Homepage extends Vue {
   @State locale: string;
   tel = "+420777987295"
   loadedCount = 0;
+  isGaleryVisible = false;
+
+  private mounted() {
+    this.$nextTick( () => {
+      this.isGaleryVisible = true;
+    });
+
+
+    // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+    $("#droplet").on('click', function(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+
+  }
 
   private stodolaImages: IImage[] = [
     { src: "/images-v1/stodola/stodola_01.jpeg", tiny: "/images-v1/stodola/thumbnail/stodola_01_tn.jpg" },
@@ -162,19 +195,18 @@ export default class Homepage extends Vue {
     let rsvpForm= this.getRsvpForm();
 
     if(this.isSmallScreen()) {
-      console.log("is small screen")
       switch(mod) {
         case 0: rsvpForm.height = "400px"; break; // submit another page
-        case 1: rsvpForm.height = "1100px"; break; // first page
-        case 2: rsvpForm.height = "1200px"; break;
-        case 3: rsvpForm.height = "1500px"; break;
+        case 1: rsvpForm.height = "1150px"; break; // first page
+        case 2: rsvpForm.height = "1400px"; break;
+        case 3: rsvpForm.height = "1550px"; break;
         case 4: rsvpForm.height = "650px"; break;
       }
     } else {
       switch(mod) {
         case 0: rsvpForm.height = "300px"; break; // submit another page
-        case 1: rsvpForm.height = "950px"; break; // first page
-        case 2: rsvpForm.height = "1000px"; break;
+        case 1: rsvpForm.height = "1000px"; break; // first page
+        case 2: rsvpForm.height = "1100px"; break;
         case 3: rsvpForm.height = "1300px"; break;
         case 4: rsvpForm.height = "550px"; break;
       }
@@ -190,6 +222,29 @@ export default class Homepage extends Vue {
 
   isSmallScreen() {
     return window.innerWidth < 600;
+  }
+
+  scrollSmoothly(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (event.target.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = event.target.hash;
+
+        console.log(event)
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
   }
 
 }

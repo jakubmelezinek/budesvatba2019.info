@@ -15,11 +15,11 @@
       >
         <li>
           <div class="li-background"></div>
-          <a href="#timeline">HARMONOGRAM</a>
+          <a href="#location">MIESTO</a>
         </li>
         <li>
           <div class="li-background"></div>
-          <a href="#location">MIESTO</a>
+          <a href="#timeline">HARMONOGRAM</a>
         </li>
         <li>
           <div class="li-background"></div>
