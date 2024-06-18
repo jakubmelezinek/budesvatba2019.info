@@ -134,7 +134,7 @@
               </div>
 
               <div class="w-detail left">
-                <i class="icon"><img src="/icons/icons8-dining-room-100.png" alt="dance" height="56" width="56"></i>
+                <i class="icon"><img src="/icons/icons8-dining-room-100.png" alt="dance" height="50" width="50"></i>
                 <h4 class="title">HOSTINA</h4>
               </div>
 
@@ -262,7 +262,7 @@
           <p class="desc margin-bottom">
             Nebudeme vás zaťažovať špeciálnymi požiadavkami, aj tak si určite nemáte čo obliecť :D Všetko, v čom sa
             budete cítiť pohodlne a bude to odpovedať výnimočnosti situácie, je v poriadku.
-            Ak sa chcete zladiť do farieb našej svadby, prikladáme <a target="_blank" href="/images-v1/color-palet.png"><span class="link_in_text">farebnú paletu</span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a>.
+            Ak sa chcete zladiť do farieb našej svadby, prikladáme <a target="_blank" href="/images-v1/color-palet.png"><span class="link_in_text"><u>farebnú paletu</u></span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a>.
             Bielu farbu a farby jej podobné prenechajte ale, prosím, neveste.
           </p>
         </div>
@@ -298,7 +298,7 @@
 
 
             <p class="desc margin-bottom">
-              Naša svadba so sebou prinesie zopár slovenských zvyklostí a špecifík. Čaká na vás čepčenie nevesty a redový tanec. Už ste niekedy tancovali na <a target="_blank" href="https://youtu.be/NhUgktrVUR4?si=2FKoCkTk46YbGM6S&t=183"><span class="link_in_text">čardáše</span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a> ? Na našej svadbe sa ich zopár určite objaví. Len som si na to pomyslela a už sa mi rozprúdila krv v žilách!
+              Naša svadba so sebou prinesie zopár slovenských zvyklostí a špecifík. Čaká na vás čepčenie nevesty a redový tanec. Už ste niekedy tancovali na <a target="_blank" href="https://www.youtube.com/watch?v=qFPman6nih4"><span class="link_in_text"><u>čardáše</u></span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a> ? Na našej svadbe sa ich zopár určite objaví. Len som si na to pomyslela a už sa mi rozprúdila krv v žilách!
             </p>
 
             <p class="desc margin-bottom">
@@ -563,10 +563,6 @@
     margin-top: 10px;
   }
 
-  .link_in_text {
-    text-decoration: underline solid 1px !important;
-  }
-
   @media (max-width: 992px) {
     .flag img {
       width: 75%;
@@ -593,6 +589,10 @@
 
   span.line {
     display: inline-block;
+  }
+
+  .w-detail img {
+    width: auto;
   }
 
 </style>
