@@ -24,7 +24,7 @@
 
           <div class="col-sm-12">
             <div class="heading">
-              <h2 class="title bg-line"><span>Naše milé zlatíčka</span></h2>
+              <h2 class="title bg-line"><span>Naši najdrahší</span></h2>
             </div>
 
             <p class="desc margin-bottom">
@@ -139,13 +139,13 @@
               </div>
 
               <div class="w-detail right">
-                <i class="icon icon-cake"></i>
-                <h4 class="title">KRÁJANIE TORTY</h4>
+                <i class="icon"><img src="/icons/icons8-gesellschaftstanz-100.png" alt="dance" height="56" width="56"></i>
+                <h4 class="title">PRVÝ TANEC</h4>
               </div>
 
               <div class="w-detail left">
-                <i class="icon"><img src="/icons/icons8-gesellschaftstanz-100.png" alt="dance" height="56" width="56"></i>
-                <h4 class="title">PRVÝ TANEC</h4>
+                <i class="icon icon-cake"></i>
+                <h4 class="title">KRÁJANIE TORTY</h4>
               </div>
 
               <div class="w-detail right">
