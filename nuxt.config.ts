@@ -10,6 +10,9 @@ const config: NuxtConfiguration = {
   */
   head: {
     title: "Martina a Jakub 28.9.2024",
+    htmlAttrs: {
+      lang: "sk",
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
