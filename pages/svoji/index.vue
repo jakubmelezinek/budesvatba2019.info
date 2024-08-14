@@ -261,7 +261,7 @@
 
           <p class="desc margin-bottom">
             Nebudeme vás zaťažovať špeciálnymi požiadavkami, aj tak si určite nemáte čo obliecť :D Všetko, v čom sa
-            budete cítiť pohodlne a bude to odpovedať výnimočnosti situácie, je v poriadku.
+            budete cítiť pohodlne a bude to odpovedať výnimočnosti situácie, je v poriadku. Dámám odporúčame botičky pohodlné i na trávnatý povrch, kde se bude konať obrad.
             Ak sa chcete zladiť do farieb našej svadby, prikladáme <a target="_blank" href="/images-v1/color-palet.png"><span class="link_in_text"><u>farebnú paletu</u></span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a>.
             Bielu farbu a farby jej podobné prenechajte ale, prosím, neveste.
           </p>
@@ -331,8 +331,7 @@
             </div>
 
             <p class="desc margin-bottom">
-              Prosíme vás o co nejdřívější vyplnění tohoto krátkého dotazníku. Nejpozději však do 31.7.
-              Po tomto datu vás stále rádi uvidime ale doneste si s sebou stoličku a řízek s chlebem :D
+              Prosíme vás o co nejdřívější vyplnění tohoto krátkého dotazníku.
             </p>
             <iframe ref="rsvpForm" @load="rsvpLoaded" src="https://docs.google.com/forms/d/e/1FAIpQLScfmxohAtx6kgUX7SfBifBuIuN-ZTvNHvjHlIvIM3PNTfx_Zg/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </div>
