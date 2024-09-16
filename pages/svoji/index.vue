@@ -187,7 +187,7 @@
             </div>
 
             <p class="desc margin-bottom">
-              Dúfame, že sa s nami budete zabávať až do rána bieleho a nebudete sa od nás ponáhľať domov. Ubytovanie máme pre vás dohodnuté v Modřicích - hotel Lion, hotel U Kostela, Apartments 461. Cena za osobu na noc s raňajkami bude do 1000 Kč (40 EUR).
+              Dúfame, že sa s nami budete zabávať až do rána bieleho a nebudete sa od nás ponáhľať domov. Ubytovanie nie zahrnuté v rámci pozvánky, rezerváciu ale vybavíme za vás. Máme dohodnuté ubytovanie v Modřicích - hotel Lion, hotel U Kostela, Apartments 461. Cena za osobu na noc s raňajkami bude do 1000 Kč (40 EUR).
               Môže sa stať, že vaša izba nebude pred odchodom na obrad ešte pripravená. Urobíme ale všetko pre vaše maximálne pohodlie a minimálne budú nachystané izby, kde sa môžete osviežiť, pripraviť a nechať si veci. Prípadne môžete ísť s nami do toho all in a prísť už v piatok ako my :)</p>
 
             <h3>Presun na hostinu</h3>
@@ -261,8 +261,8 @@
 
           <p class="desc margin-bottom">
             Nebudeme vás zaťažovať špeciálnymi požiadavkami, aj tak si určite nemáte čo obliecť :D Všetko, v čom sa
-            budete cítiť pohodlne a bude to odpovedať výnimočnosti situácie, je v poriadku. Dámám odporúčame botičky pohodlné i na trávnatý povrch, kde se bude konať obrad.
-            Ak sa chcete zladiť do farieb našej svadby, prikladáme <a target="_blank" href="/images-v1/color-palet.png"><span class="link_in_text"><u>farebnú paletu</u></span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a>.
+            budete cítiť pohodlne a bude to odpovedať výnimočnosti situácie, je v poriadku. Dámám odporúčame botičky pohodlné i na trávnatý povrch, kde sa bude konať obrad.
+            Ak sa chcete zladiť do farieb našej výzdoby, prikladáme <a target="_blank" href="/images-v1/color-palette-v2.png"><span class="link_in_text"><u>farebnú paletu</u></span> <i class="fa-solid fa-up-right-from-square fa-2xs"></i></a>.
             Bielu farbu a farby jej podobné prenechajte ale, prosím, neveste.
           </p>
         </div>
